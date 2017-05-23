@@ -867,7 +867,7 @@
             "onUpdateScript": "",
             "onSaveScript": "",
             "templateName": "MapItemTemplate",
-            "widgetTitle": "",
+            "widgetTitle": "Tyde Main Wizard",
             "readAccess": "public"
         }
     },
