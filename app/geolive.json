@@ -717,11 +717,6 @@
         "instance": "NoJavascriptHelper",
         "parameters": {}
     },
-    "widget.81": {
-        "name": "Login Behavior",
-        "instance": "LoginWizard",
-        "parameters": {}
-    },
     "widget.82": {
         "name": "Session Behavior",
         "instance": "Session",
