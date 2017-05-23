@@ -1005,6 +1005,14 @@
     "widget.96": {
         "name": "Custom Tile Control Script",
         "instance": "CustomTileControlScript",
-        "parameters": {}
+        "parameters": {
+            "customScript": "widget.CustomTileControlScript.96.customScript.js",
+            "tileIcon": [],
+            "hoverTip": "",
+            "className": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
     }
 }
