@@ -775,8 +775,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 143,
-                            "y": 242
+                            "x": 153,
+                            "y": 252
                         },
                         "children": [
                             {
@@ -816,16 +816,9 @@
                                             "config": {
                                                 "label": "Title",
                                                 "message": "add a title",
-                                                "className": "hideme",
+                                                "className": "",
                                                 "maxChars": 0,
                                                 "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardScriptElement",
-                                            "config": {
-                                                "script": "widget.WizardBuilder.93.metadata.children.1.builderMetadata.positions.content.modules.1.config.script.js",
-                                                "identifier": "customScriptElement"
                                             }
                                         },
                                         {
