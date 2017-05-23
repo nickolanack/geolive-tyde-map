@@ -671,23 +671,16 @@
                                     "dragConfirmMessage": "save new position",
                                     "dragConfirm": false,
                                     "geocodeMove": true,
-                                    "templateName": "ReportViolation"
+                                    "templateName": "ReportViolation",
+                                    "showEdit": true,
+                                    "showMove": true,
+                                    "showDelete": true
                                 }
                             }
                         ]
                     },
                     "menu": {
-                        "modules": [
-                            {
-                                "type": "ReadAccessSelect",
-                                "config": {
-                                    "className": "",
-                                    "listTitle": "Set Access",
-                                    "onSetAccessScript": "",
-                                    "mergeRestrictions": true
-                                }
-                            }
-                        ]
+                        "modules": []
                     }
                 },
                 "positionList": [
@@ -695,7 +688,8 @@
                     "content",
                     "footer",
                     "menu"
-                ]
+                ],
+                "_diagramState": []
             },
             "templateName": "Detail",
             "widgetTitle": "Placemark Detail",
