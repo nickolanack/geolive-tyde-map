@@ -1007,7 +1007,9 @@
         "instance": "CustomTileControlScript",
         "parameters": {
             "customScript": "widget.CustomTileControlScript.96.customScript.js",
-            "tileIcon": [],
+            "tileIcon": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_[G]_F9_3yq_J6s.png"
+            ],
             "hoverTip": "",
             "className": "",
             "widgetTitle": "",
