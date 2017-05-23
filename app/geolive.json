@@ -760,8 +760,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 65,
-                            "y": 211
+                            "x": 75,
+                            "y": 221
                         },
                         "children": [
                             {
@@ -789,7 +789,7 @@
                                                 "fitContent": true,
                                                 "minHeight": 200,
                                                 "minWidth": 400,
-                                                "showSteps": true
+                                                "showSteps": false
                                             }
                                         }
                                     ]
