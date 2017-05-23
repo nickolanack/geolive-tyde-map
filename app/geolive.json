@@ -1010,5 +1010,10 @@
             "widgetTitle": "",
             "readAccess": "public"
         }
+    },
+    "widget.96": {
+        "name": "Custom Tile Control Script",
+        "instance": "CustomTileControlScript",
+        "parameters": {}
     }
 }
