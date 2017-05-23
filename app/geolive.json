@@ -894,6 +894,122 @@
     "widget.95": {
         "name": "Login Wizard Builder",
         "instance": "LoginWizardBuilder",
-        "parameters": {}
+        "parameters": {
+            "reloadOnSuccess": true,
+            "reloadUrl": "",
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -194,
+                    "y": 189
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -184,
+                            "y": 249
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 48,
+                            "y": 273
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 412,
+                                    "y": 439
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 460,
+                                                "height": 250,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "fitContent": true,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardLogin",
+                                            "config": {
+                                                "className": "",
+                                                "showCancel": true,
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Login",
+                                                "labelForUsername": "XXXX-XXXX",
+                                                "labelForPassword": "XXXX-XXXX",
+                                                "onLoginFailedScript": ""
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "submit",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": true,
+                                                "showBack": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "MapItemTemplate",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
     }
 }
