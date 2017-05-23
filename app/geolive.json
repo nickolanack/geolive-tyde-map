@@ -775,15 +775,15 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 133,
-                            "y": 232
+                            "x": 143,
+                            "y": 242
                         },
                         "children": [
                             {
                                 "class": "Node",
                                 "_diagramState": {
-                                    "x": 415,
-                                    "y": 330
+                                    "x": 507,
+                                    "y": 418
                                 }
                             }
                         ],
@@ -801,9 +801,10 @@
                                                 "height": 250,
                                                 "labelMethod": "auto",
                                                 "elasticity": false,
+                                                "fitContent": true,
                                                 "minHeight": 200,
                                                 "minWidth": 400,
-                                                "showSteps": true
+                                                "showSteps": false
                                             }
                                         }
                                     ]
@@ -823,7 +824,8 @@
                                         {
                                             "type": "WizardScriptElement",
                                             "config": {
-                                                "script": "widget.WizardBuilder.93.metadata.children.1.builderMetadata.positions.content.modules.1.config.script.js"
+                                                "script": "widget.WizardBuilder.93.metadata.children.1.builderMetadata.positions.content.modules.1.config.script.js",
+                                                "identifier": "customScriptElement"
                                             }
                                         },
                                         {
@@ -841,7 +843,8 @@
                                                 "maxChars": 0,
                                                 "showExpandInput": true,
                                                 "toolbarPosition": "bottom",
-                                                "textFormatScript": ""
+                                                "textFormatScript": "",
+                                                "mediaIconTint": "rgb(100, 149, 237)"
                                             }
                                         }
                                     ]
@@ -853,7 +856,13 @@
                                             "config": {
                                                 "className": "WizardFooter",
                                                 "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();"
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "submit",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": true,
+                                                "showBack": true
                                             }
                                         }
                                     ]
@@ -867,7 +876,10 @@
                                 "content",
                                 "footer",
                                 "menu"
-                            ]
+                            ],
+                            "_diagramState": {
+                                "minimized": false
+                            }
                         }
                     }
                 ]
