@@ -2,12 +2,14 @@ var viewer=new ContentModuleViewer(map, container, {});
 
 
 
-var clear=function(){
+var clearContent=function(){
     container.innerHTML="No item selected";
 }
 sidePanel.addEvent('hide',function(){
-    clear();
-})
+    clearContent();
+});
+
+clearContent();
 
 
 map.setMapitemSelectFn(function(mapitem) {
