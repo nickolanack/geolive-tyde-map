@@ -697,8 +697,8 @@
                     "menu"
                 ]
             },
-            "templateName": "default",
-            "widgetTitle": "Rapp Placemark",
+            "templateName": "Detail",
+            "widgetTitle": "Placemark Detail",
             "readAccess": "public"
         }
     },
