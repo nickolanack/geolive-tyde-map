@@ -1,0 +1,5 @@
+map.setMapitemSelectFn(function(mapitem) {
+    
+    
+    
+});

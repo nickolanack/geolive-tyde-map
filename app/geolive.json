@@ -890,7 +890,7 @@
         "name": "Side Panel",
         "instance": "SidePanel",
         "parameters": {
-            "customScript": "",
+            "customScript": "Right Panel.customScript.js",
             "widgetTitle": "Right Panel",
             "readAccess": "public",
             "position": "RIGHT_CENTER"
