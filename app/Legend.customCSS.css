@@ -1,0 +1,70 @@
+.LegendLayer:after {
+    width: 50px;
+    height: 50px;
+    background: white;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    z-index: -1;
+    border-radius: 100%;
+    border: 3px solid #e0e0e0;
+}
+.LegendLayer.active:after {
+    border-color: #0088cc;
+}
+.LegendArea .legend_layer_title {
+    display: none;
+}
+
+
+.GeoliveLegend .LegendArea{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.GeoliveLegend .LegendLayer {
+    margin-bottom: 25px;
+    width: 46px;
+}
+
+.hide-textbox textarea {
+    display: none;
+}
+
+.resource-tile .tileButtonContainer {
+    background-color: yellow;
+}
+
+div.LegendArea div.LegendLayer span.LegendLayerLight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content: "";
+    background-image: url(https://mobiledemo.geolive.ca/components/com_geolive/users_files/user_files_400/Uploads/1G1_[ImAgE]_jt_WSY_[G].png?thumb=%3E31x%3E31);
+    background-size: 100%;
+    top: -27px;
+    left: -10px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.LegendLayer.layer-11.active:after {
+    background-color: #33cc33;
+}
+
+.LegendLayer.layer-13.active:after {
+    background-color: #cc0000;
+}
+
+.LegendLayer.layer-14.active:after {
+    background-color: #ff9933;
+}
+
+.GeoliveLegend .LegendLayers img {
+    position: absolute;
+    top: -2px;
+    left: 0px;
+}

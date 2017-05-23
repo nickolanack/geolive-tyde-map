@@ -1,0 +1,899 @@
+{
+    "plugin.35": {
+        "name": "Attributes",
+        "instance": "Attributes",
+        "parameters": {},
+        "attributes": "plugin.Attributes.35.attributes.json"
+    },
+    "plugin.24": {
+        "name": "Upgrade",
+        "instance": "Upgrade",
+        "parameters": {
+            "releaseServer": "http:\/\/release.geolive.ca",
+            "releasePackage": "master",
+            "autoUpdate": false
+        }
+    },
+    "plugin.6": {
+        "name": "System Parameters",
+        "instance": "SystemParameters",
+        "parameters": {
+            "JSFileObfuscationEnabled": false,
+            "JSInlineObfuscationEnabled": false,
+            "CSSFileObfuscationEnabled": false,
+            "CSSInlineObfuscationEnabled": false,
+            "PHPDebugEnabled": true,
+            "JSDebugEnabled": true,
+            "CachingEnabled": false,
+            "PrettyPrintJson": true,
+            "JSCacheObfuscationEnabled": false,
+            "dev": "1",
+            "phase": "alpha",
+            "ExternalizeWidgetScripts": true
+        }
+    },
+    "plugin.4": {
+        "name": "Version Manager",
+        "instance": "VersionManager",
+        "parameters": {}
+    },
+    "plugin.5": {
+        "name": "Activity Monitor",
+        "instance": "ActivityMonitor",
+        "parameters": {}
+    },
+    "plugin.7": {
+        "name": "Data Types",
+        "instance": "Data",
+        "parameters": {}
+    },
+    "plugin.41": {
+        "name": "Timeline",
+        "instance": "Timeline",
+        "parameters": {}
+    },
+    "plugin.9": {
+        "name": "Filesystem",
+        "instance": "Filesystem",
+        "parameters": {
+            "uploadViewInlineCss": ".helloworld.{\r\n\r\n}",
+            "dropbox-app-key": "XXXX-XXXX",
+            "showDropboxImagePicker": true,
+            "uploadViewPageScript": ""
+        }
+    },
+    "plugin.10": {
+        "name": "Maps",
+        "instance": "Maps",
+        "parameters": {
+            "enableLayerSyncronization": true,
+            "onlyShowMarkersInIconset": false,
+            "tileCachePath": "",
+            "googleMapsServerApiKey": "XXXX-XXXX"
+        }
+    },
+    "plugin.11": {
+        "name": "Users",
+        "instance": "Users",
+        "parameters": {}
+    },
+    "plugin.17": {
+        "name": "External Content",
+        "instance": "ExternalContent",
+        "parameters": {
+            "youtube-api-key": "XXXX-XXXX"
+        }
+    },
+    "plugin.36": {
+        "name": "Mobile Device Interface",
+        "instance": "IOSApplication",
+        "parameters": {
+            "registrationType": "create",
+            "applicationSettings": {
+                "applicationName": "Map Collect",
+                "visibleLayers": [
+                    "user"
+                ],
+                "form": {
+                    "layer": 11,
+                    "media": [
+                        "image",
+                        "video"
+                    ],
+                    "icon": "https:\/\/bcwf.geolive.ca\/components\/com_geolive\/users_files\/user_files_400\/Uploads\/dlN_[ImAgE]_E36_2F0_[G].png",
+                    "attributes": []
+                }
+            }
+        }
+    },
+    "plugin.34": {
+        "name": "Pusher Message Server",
+        "instance": "PusherMessages",
+        "parameters": "_PusherMessages.json"
+    },
+    "plugin.21": {
+        "name": "Google Maps",
+        "instance": "GoogleMaps",
+        "parameters": {}
+    },
+    "plugin.22": {
+        "name": "Integration Testing",
+        "instance": "UnitTest",
+        "parameters": {}
+    },
+    "plugin.23": {
+        "name": "User Interface",
+        "instance": "UserInterface",
+        "parameters": {
+            "defaultRoute": "{}"
+        }
+    },
+    "plugin.38": {
+        "name": "Auto Attributes",
+        "instance": "AutoAttributes",
+        "parameters": {
+            "storeUpdateDate": true,
+            "attributeUpdateDateField": [
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "wildlifeAttributes",
+                    "tableSuffix": "_4304",
+                    "title": "lastUpdate",
+                    "label": "Last Update",
+                    "description": "Items last update date",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
+    },
+    "plugin.39": {
+        "name": "Language",
+        "instance": "Language",
+        "parameters": {}
+    },
+    "plugin.40": {
+        "name": "Slack Monitor",
+        "instance": "SlackMonitor",
+        "parameters": "_SlackMonitor.json"
+    },
+    "plugin.45": {
+        "name": "Deploy",
+        "instance": "Deploy",
+        "parameters": "_Deploy.json"
+    },
+    "plugin.46": {
+        "name": "Email",
+        "instance": "Email",
+        "parameters": {}
+    },
+    "plugin.47": {
+        "name": "Events",
+        "instance": "Events",
+        "parameters": {}
+    },
+    "plugin.48": {
+        "name": "Links",
+        "instance": "Links",
+        "parameters": {}
+    },
+    "plugin.49": {
+        "name": "Search Plugin",
+        "instance": "Search",
+        "parameters": {}
+    },
+    "plugin.50": {
+        "name": "Sentry IO Error reporting",
+        "instance": "SentryIO",
+        "parameters": {
+            "clientSecretUrl": "XXXX-XXXX",
+            "clientPublicUrl": "https:\/\/9f41d0386d874b1d80e444ae530768eb@sentry.io\/163588"
+        }
+    },
+    "plugin.51": {
+        "name": "Monolog Plugin",
+        "instance": "Monolog",
+        "parameters": {
+            "logPath": "\/srv\/www\/vhosts\/production\/mobiledemo.s54.ok.ubc.ca\/http\/..\/log",
+            "logToSentry": true
+        }
+    },
+    "plugin.43": {
+        "name": "Custom Events",
+        "instance": "CustomEvents",
+        "parameters": {},
+        "events": []
+    },
+    "plugin.44": {
+        "name": "Geolocation",
+        "instance": "Geolocate",
+        "parameters": {}
+    },
+    "widget.1": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {
+            "showStreetControl": 1,
+            "streetControlPosition": "LEFT_TOP",
+            "showPanControl": 1,
+            "panControlPosition": "LEFT_TOP",
+            "showZoomControl": 1,
+            "zoomControl": "SMALL",
+            "zoomControlPosition": "LEFT_TOP",
+            "showMapTypeControl": 1,
+            "mapType": "HORIZONTAL_BAR",
+            "mapTypePosition": "TOP_RIGHT",
+            "showMapScaleControl": 1,
+            "mapScaleType": "DEFAULT",
+            "mapScalePosition": "BOTTOM_RIGHT",
+            "showMapOverviewControl": 0,
+            "mapOverviewControlOpened": 0,
+            "widgetTitle": "add a label or comment for this widget",
+            "readAccess": "public"
+        }
+    },
+    "widget.2": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {
+            "sections": [
+                "home",
+                "iconset",
+                "",
+                "fullscreen"
+            ],
+            "discussionTag": false,
+            "iconSetReferenceName": "",
+            "markerSearch": true,
+            "tileIcon": [],
+            "position": "RIGHT_CENTER",
+            "offsetX": 100,
+            "offsetY": 100,
+            "tilePadding": 0,
+            "direction": "auto",
+            "markerSize": 24,
+            "tileSize": 50,
+            "showToolTips": true,
+            "fullscreenTip": "",
+            "homeTip": "",
+            "markerTip": "",
+            "loginTip": "",
+            "logoutTip": "",
+            "profileTip": "",
+            "layerMap": [],
+            "tipMap": [],
+            "widgetTitle": "Controls",
+            "readAccess": "public",
+            "groupIcon": [],
+            "markerIconset": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": [],
+            "controlColor": "rgb(255, 255, 255)",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "subControlColor": "rgb(0, 136, 204)",
+            "useTipIconsetLayerTitle": false,
+            "formatTipScript": ""
+        }
+    },
+    "widget.5": {
+        "name": "Attr Search Bar",
+        "instance": "AttributesSearch",
+        "parameters": {
+            "position": "TOP_CENTER",
+            "barWidth": 660,
+            "locationSearch": true,
+            "showFilterBuilder": true,
+            "hoverTheme": false,
+            "themeLabel": "Keywords",
+            "showCloud": true,
+            "cloudTable": "projectAttributes",
+            "cloudField": "keywords",
+            "mapitemSearchLabel": "Placemarks",
+            "locationSearchLabel": "Locations",
+            "showDemoTags": false,
+            "demoTagsMinimum": 10,
+            "cloudResults": 30,
+            "widgetTitle": "add a label or comment for this widget",
+            "readAccess": "public",
+            "searchColor": "rgb(0, 160, 80)",
+            "clearColor": "rgb(182, 0, 182)",
+            "searchTintColor": "rgb(255, 255, 255)",
+            "clearTintColor": "rgb(247, 247, 247)",
+            "placeholderText": "",
+            "searchUsers": false
+        }
+    },
+    "widget.20": {
+        "name": "Uncluster Button",
+        "instance": "LayerClusterToggleTile",
+        "parameters": {
+            "widgetTitle": "add a label or comment for this widget",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "controlColor": "rgb(255, 255, 255)",
+            "tileIcon": [],
+            "unclusterTip": "Ungroup icons",
+            "clusterTip": "Group icons"
+        }
+    },
+    "widget.24": {
+        "name": "Attribute Search Drop",
+        "instance": "AttributesSearchDropMarker",
+        "parameters": {
+            "widgetTitle": "add a label or comment for this widget",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "showAllIcons": true,
+            "guestLoginDrop": true,
+            "onDropScript": "add a label or comment for this widget.onDropScript.js"
+        }
+    },
+    "widget.28": {
+        "name": "Url Variables Parser",
+        "instance": "UrlVariablesBehavior",
+        "parameters": {
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "maxZoom": true,
+            "onFeatureDoesNotExist": "alert(\"mapitem does not exist or you do not have access.\");",
+            "onUserDoesNotHaveAccessToFeature": "window.openLoginWindow();"
+        }
+    },
+    "widget.43": {
+        "name": "Cluster Behavior",
+        "instance": "ClusterBehaviors",
+        "parameters": {
+            "spreadClusters": false,
+            "spreadClustersWithAnimation": true,
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.55": {
+        "name": "Custom Tile Control Script",
+        "instance": "CustomTileControlScript",
+        "parameters": {
+            "customScript": "heat map tile.customScript.js",
+            "tileIcon": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_gtw_Ch3_6gE.png"
+            ],
+            "hoverTip": "Show data as a heatmap",
+            "widgetTitle": "heat map tile",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.56": {
+        "name": "Flexible Height Widget",
+        "instance": "FlexibleHeight",
+        "parameters": {
+            "customScript": "",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.58": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "Cluster Style.customScript.js",
+            "widgetTitle": "Cluster Style",
+            "readAccess": "public"
+        }
+    },
+    "widget.62": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.63": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.64": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.65": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {
+            "defineLoginScript": "return window.openLoginWindow;",
+            "defineLogoutScript": "return defaultLogoutFn;",
+            "filterLoginModulesScript": "return modules;",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.66": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.67": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "Tile Buttons- Wizard Etc.customCSS.css",
+            "widgetTitle": "Tile Buttons, Wizard Etc",
+            "readAccess": "public"
+        }
+    },
+    "widget.68": {
+        "name": "Timeline",
+        "instance": "Timeline",
+        "parameters": {
+            "position": "BOTTOM_CENTER",
+            "className": "",
+            "barColor": "#f3f3f3",
+            "spanColor": "rgb(0, 160, 80)",
+            "minSpanColor": "#EEEEEE",
+            "knobColor": "#EEEEEE",
+            "showTip": false,
+            "roundDownMonth": false,
+            "tipTitle": "Project Date Filter",
+            "tipDescription": "widget.Timeline.68.tipDescription.js",
+            "lockMinDate": "-60",
+            "lockMaxDate": "+1",
+            "attributeSelection": [
+                {
+                    "visibility": "public",
+                    "tableId": "3",
+                    "tableName": "wildlifeAttributes",
+                    "tableSuffix": "_4304",
+                    "title": "lastUpdate",
+                    "label": "Last Update",
+                    "description": "Items last update date",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ],
+            "onRenderScript": "widget.Timeline.68.onRenderScript.js",
+            "sendNotifications": true,
+            "widgetTitle": "",
+            "readAccess": "public",
+            "useTileButton": true,
+            "hideTimelineAtStart": true,
+            "tileIcon": [],
+            "tilePosition": "RIGHT_CENTER"
+        }
+    },
+    "widget.69": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "Timeline.customCSS.css",
+            "widgetTitle": "Timeline",
+            "readAccess": "public"
+        }
+    },
+    "widget.72": {
+        "name": "Legend",
+        "instance": "Legend",
+        "parameters": {
+            "position": "LEFT_CENTER",
+            "style": "GeoliveLegend.css",
+            "useIconSet": false,
+            "draggableIcons": false,
+            "startMinimized": true,
+            "showToggle": false,
+            "guestLoginDrag": true,
+            "legendParams": [],
+            "editableLayerScript": "return true",
+            "formatLayerScript": "",
+            "formatLayerPopoverScript": "",
+            "formatLegendScript": "",
+            "onDragEndScript": "defaultBehaviorFn();",
+            "iconSize": 47,
+            "defaultIcon": "DEFAULT",
+            "showEditLayerButtons": true,
+            "widgetTitle": "",
+            "readAccess": "public",
+            "shouldShowLayerScript": "return true"
+        }
+    },
+    "widget.73": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {
+            "customCSS": "Legend.customCSS.css",
+            "widgetTitle": "Legend",
+            "readAccess": "public"
+        }
+    },
+    "widget.75": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "Add a placemark",
+            "className": "addmarker-tile",
+            "guestLoginDrag": true,
+            "onDragEndScript": "defaultBehaviorFn();",
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER",
+            "wizardName": ""
+        }
+    },
+    "widget.76": {
+        "name": "Icon Set",
+        "instance": "IconSet",
+        "parameters": {
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png"
+            ],
+            "layerMap": [],
+            "tipMap": [],
+            "filterLayerMappedIcons": true,
+            "iconsetMetadata": {
+                "layerMap": {
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png": 11,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png": 14,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": 13
+                },
+                "renderSettings": {
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    }
+                }
+            },
+            "widgetTitle": "",
+            "readAccess": "public",
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
+        }
+    },
+    "widget.77": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {
+            "metadata": {
+                "positions": {
+                    "title": {
+                        "modules": [
+                            {
+                                "type": "DefaultTitle",
+                                "config": {
+                                    "className": "",
+                                    "maxChars": 0
+                                }
+                            }
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            {
+                                "type": "DefaultDescription",
+                                "config": {
+                                    "className": "",
+                                    "imageWidth": 300,
+                                    "imageHeight": 240,
+                                    "multiImageWidth": 100,
+                                    "multiImageHeight": 75,
+                                    "portraitImageWidth": 75,
+                                    "portraitImageHeight": 100,
+                                    "autoArrange": true,
+                                    "oneLine": true,
+                                    "maxChars": 0,
+                                    "maxWidth": 0,
+                                    "showAudios": true,
+                                    "showVideos": true,
+                                    "showImages": true,
+                                    "showDocuments": true,
+                                    "showLinks": true,
+                                    "showExternalContent": true,
+                                    "embedPortrait": true,
+                                    "preferLocalContent": true,
+                                    "portraitClip": true
+                                }
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            {
+                                "type": "DefaultEdit",
+                                "config": {
+                                    "className": "",
+                                    "dragConfirmMessage": "save new position",
+                                    "dragConfirm": false,
+                                    "geocodeMove": true,
+                                    "templateName": "ReportViolation"
+                                }
+                            }
+                        ]
+                    },
+                    "menu": {
+                        "modules": [
+                            {
+                                "type": "ReadAccessSelect",
+                                "config": {
+                                    "className": "",
+                                    "listTitle": "Set Access",
+                                    "onSetAccessScript": "",
+                                    "mergeRestrictions": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ]
+            },
+            "templateName": "default",
+            "widgetTitle": "Rapp Placemark",
+            "readAccess": "public"
+        }
+    },
+    "widget.78": {
+        "name": "Map Layers Widget",
+        "instance": "Layers",
+        "parameters": {}
+    },
+    "widget.79": {
+        "name": "Search Engine Optimization Helper",
+        "instance": "SearchEngineOptimizationHelper",
+        "parameters": {}
+    },
+    "widget.80": {
+        "name": "No Javascript Helper",
+        "instance": "NoJavascriptHelper",
+        "parameters": {}
+    },
+    "widget.81": {
+        "name": "Login Behavior",
+        "instance": "LoginWizard",
+        "parameters": {}
+    },
+    "widget.82": {
+        "name": "Session Behavior",
+        "instance": "Session",
+        "parameters": {}
+    },
+    "widget.83": {
+        "name": "Google Controls",
+        "instance": "GoogleControl",
+        "parameters": {}
+    },
+    "widget.84": {
+        "name": "Tile Buttons",
+        "instance": "TileButtons",
+        "parameters": {}
+    },
+    "widget.88": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "cluster style.customScript.js",
+            "widgetTitle": "cluster style",
+            "readAccess": "public"
+        }
+    },
+    "widget.90": {
+        "name": "Javascript",
+        "instance": "CustomBehaviorScript",
+        "parameters": {
+            "customScript": "notifications.customScript.js",
+            "widgetTitle": "notifications",
+            "readAccess": "public"
+        }
+    },
+    "widget.93": {
+        "name": "Generic Wizard",
+        "instance": "WizardBuilder",
+        "parameters": {
+            "metadata": {
+                "class": "DescisionNode",
+                "_diagramState": {
+                    "x": -106,
+                    "y": 197
+                },
+                "children": [
+                    {
+                        "class": "Node",
+                        "_diagramState": {
+                            "x": -95,
+                            "y": 259
+                        }
+                    },
+                    {
+                        "title": "New Empty Step",
+                        "class": "AttributesTableNode",
+                        "fields": [
+                            []
+                        ],
+                        "_diagramState": {
+                            "x": 133,
+                            "y": 232
+                        },
+                        "children": [
+                            {
+                                "class": "Node",
+                                "_diagramState": {
+                                    "x": 415,
+                                    "y": 330
+                                }
+                            }
+                        ],
+                        "builderMetadata": {
+                            "positions": {
+                                "title": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 460,
+                                                "height": 250,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": true
+                                            }
+                                        }
+                                    ]
+                                },
+                                "content": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardTitleField",
+                                            "config": {
+                                                "label": "Title",
+                                                "message": "add a title",
+                                                "className": "hideme",
+                                                "maxChars": 0,
+                                                "textFormatScript": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardScriptElement",
+                                            "config": {
+                                                "script": "widget.WizardBuilder.93.metadata.children.1.builderMetadata.positions.content.modules.1.config.script.js"
+                                            }
+                                        },
+                                        {
+                                            "type": "WizardDescriptionField",
+                                            "config": {
+                                                "label": "Description",
+                                                "message": "add a description",
+                                                "lines": 3,
+                                                "mandatory": false,
+                                                "showAudios": true,
+                                                "showImages": true,
+                                                "showDocuments": true,
+                                                "showVideos": true,
+                                                "className": "",
+                                                "maxChars": 0,
+                                                "showExpandInput": true,
+                                                "toolbarPosition": "bottom",
+                                                "textFormatScript": ""
+                                            }
+                                        }
+                                    ]
+                                },
+                                "footer": {
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "menu": {
+                                    "modules": []
+                                }
+                            },
+                            "positionList": [
+                                "title",
+                                "content",
+                                "footer",
+                                "menu"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "beforeSubmitScript": "",
+            "onCreateScript": "",
+            "onUpdateScript": "",
+            "onSaveScript": "",
+            "templateName": "MapItemTemplate",
+            "widgetTitle": "",
+            "readAccess": "public"
+        }
+    },
+    "widget.94": {
+        "name": "Side Panel",
+        "instance": "SidePanel",
+        "parameters": {
+            "customScript": "",
+            "widgetTitle": "Right Panel",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    }
+}
