@@ -6,5 +6,6 @@ map.setMapitemSelectFn(function(mapitem) {
 		template: "default",
 		page: "Detail"
 	}), mapitem);
+	show();
     
 });
