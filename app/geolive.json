@@ -1006,13 +1006,13 @@
         "name": "Custom Tile Control Script",
         "instance": "CustomTileControlScript",
         "parameters": {
-            "customScript": "widget.CustomTileControlScript.96.customScript.js",
+            "customScript": "Accessibility Control.customScript.js",
             "tileIcon": [
                 "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_[G]_F9_3yq_J6s.png"
             ],
             "hoverTip": "",
             "className": "",
-            "widgetTitle": "",
+            "widgetTitle": "Accessibility Control",
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
