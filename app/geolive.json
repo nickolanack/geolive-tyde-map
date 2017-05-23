@@ -775,8 +775,8 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 163,
-                            "y": 262
+                            "x": 173,
+                            "y": 272
                         },
                         "children": [
                             {
@@ -795,7 +795,7 @@
                                             "type": "WizardSteps",
                                             "config": {
                                                 "iconValue": [],
-                                                "className": "placemark-detail-view",
+                                                "className": "",
                                                 "manualValue": "1",
                                                 "width": 460,
                                                 "height": 250,
