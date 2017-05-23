@@ -1007,7 +1007,7 @@
             "onCreateScript": "",
             "onUpdateScript": "",
             "onSaveScript": "",
-            "templateName": "MapItemTemplate",
+            "templateName": "LoginWizard",
             "widgetTitle": "",
             "readAccess": "public"
         }
