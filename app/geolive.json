@@ -726,15 +726,6 @@
         "instance": "TileButtons",
         "parameters": {}
     },
-    "widget.88": {
-        "name": "Javascript",
-        "instance": "CustomBehaviorScript",
-        "parameters": {
-            "customScript": "cluster style.customScript.js",
-            "widgetTitle": "cluster style",
-            "readAccess": "public"
-        }
-    },
     "widget.90": {
         "name": "Javascript",
         "instance": "CustomBehaviorScript",
