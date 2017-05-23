@@ -890,5 +890,10 @@
             "readAccess": "public",
             "position": "RIGHT_CENTER"
         }
+    },
+    "widget.95": {
+        "name": "Login Wizard Builder",
+        "instance": "LoginWizardBuilder",
+        "parameters": {}
     }
 }
