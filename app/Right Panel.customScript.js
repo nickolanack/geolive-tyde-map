@@ -1,4 +1,4 @@
-var viewer=new ContentModuleViewer(map, content, {});
+var viewer=new ContentModuleViewer(map, container, {});
 
 map.setMapitemSelectFn(function(mapitem) {
     
