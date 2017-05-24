@@ -742,15 +742,15 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -188,
-                    "y": 307
+                    "x": -297,
+                    "y": 350
                 },
                 "children": [
                     {
                         "class": "PlusNode",
                         "_diagramState": {
-                            "x": -178,
-                            "y": 367
+                            "x": -252,
+                            "y": 360
                         }
                     },
                     {
@@ -760,22 +760,22 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 85,
-                            "y": 231
+                            "x": -129,
+                            "y": 258
                         },
                         "children": [
                             {
                                 "class": "PlusNode",
                                 "_diagramState": {
-                                    "x": 449,
-                                    "y": 397
+                                    "x": 220,
+                                    "y": 424
                                 }
                             },
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 45,
-                                    "y": 397
+                                    "x": -169,
+                                    "y": 424
                                 }
                             },
                             {
@@ -785,35 +785,149 @@
                                     []
                                 ],
                                 "_diagramState": {
-                                    "x": 639,
-                                    "y": 255
+                                    "x": 222,
+                                    "y": 102
                                 },
                                 "children": [
                                     {
                                         "class": "PlusNode",
                                         "_diagramState": {
-                                            "x": 833,
-                                            "y": 281
+                                            "x": 571,
+                                            "y": 268
                                         }
                                     },
                                     {
                                         "class": "InsertNode",
                                         "_diagramState": {
-                                            "x": 599,
-                                            "y": 281
+                                            "x": 182,
+                                            "y": 268
+                                        }
+                                    },
+                                    {
+                                        "title": "New Empty Step",
+                                        "class": "AttributesTableNode",
+                                        "fields": [
+                                            []
+                                        ],
+                                        "_diagramState": {
+                                            "x": 719,
+                                            "y": 133
+                                        },
+                                        "children": [
+                                            {
+                                                "class": "PlusNode",
+                                                "_diagramState": {
+                                                    "x": 898,
+                                                    "y": 159
+                                                }
+                                            },
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 679,
+                                                    "y": 159
+                                                }
+                                            }
+                                        ],
+                                        "builderMetadata": {
+                                            "positions": {
+                                                "title": {
+                                                    "modules": []
+                                                },
+                                                "content": {
+                                                    "modules": []
+                                                },
+                                                "footer": {
+                                                    "modules": []
+                                                },
+                                                "menu": {
+                                                    "modules": []
+                                                }
+                                            },
+                                            "positionList": [
+                                                "title",
+                                                "content",
+                                                "footer",
+                                                "menu"
+                                            ],
+                                            "_diagramState": {
+                                                "minimized": true
+                                            }
                                         }
                                     }
                                 ],
                                 "builderMetadata": {
                                     "positions": {
                                         "title": {
-                                            "modules": []
+                                            "modules": [
+                                                {
+                                                    "type": "WizardSteps",
+                                                    "config": {
+                                                        "iconValue": [],
+                                                        "className": "",
+                                                        "manualValue": "1",
+                                                        "width": 460,
+                                                        "height": 250,
+                                                        "labelMethod": "auto",
+                                                        "elasticity": false,
+                                                        "fitContent": true,
+                                                        "minHeight": 200,
+                                                        "minWidth": 400,
+                                                        "showSteps": false
+                                                    }
+                                                }
+                                            ]
                                         },
                                         "content": {
-                                            "modules": []
+                                            "modules": [
+                                                {
+                                                    "type": "WizardTitleField",
+                                                    "config": {
+                                                        "label": "Title",
+                                                        "message": "add a title",
+                                                        "className": "",
+                                                        "maxChars": 0,
+                                                        "textFormatScript": ""
+                                                    }
+                                                },
+                                                {
+                                                    "type": "WizardDescriptionField",
+                                                    "config": {
+                                                        "label": "Description",
+                                                        "message": "add a description",
+                                                        "lines": 3,
+                                                        "mandatory": false,
+                                                        "showAudios": true,
+                                                        "showImages": true,
+                                                        "showDocuments": true,
+                                                        "showVideos": true,
+                                                        "className": "",
+                                                        "maxChars": 0,
+                                                        "showExpandInput": true,
+                                                        "toolbarPosition": "bottom",
+                                                        "textFormatScript": "",
+                                                        "mediaIconTint": "rgb(100, 149, 237)"
+                                                    }
+                                                }
+                                            ]
                                         },
                                         "footer": {
-                                            "modules": []
+                                            "modules": [
+                                                {
+                                                    "type": "WizardButtons",
+                                                    "config": {
+                                                        "className": "WizardFooter",
+                                                        "reduceOpacity": false,
+                                                        "onCompleteScript": "defaultBehaviorFn();",
+                                                        "labelForCancel": "cancel",
+                                                        "labelForSubmit": "submit",
+                                                        "labelForNext": "next",
+                                                        "labelForPrevious": "previous",
+                                                        "showCancel": true,
+                                                        "showBack": true
+                                                    }
+                                                }
+                                            ]
                                         },
                                         "menu": {
                                             "modules": []
@@ -826,7 +940,7 @@
                                         "menu"
                                     ],
                                     "_diagramState": {
-                                        "minimized": true
+                                        "minimized": false
                                     }
                                 }
                             }
@@ -834,75 +948,35 @@
                         "builderMetadata": {
                             "positions": {
                                 "title": {
-                                    "modules": [
-                                        {
-                                            "type": "WizardSteps",
-                                            "config": {
-                                                "iconValue": [],
-                                                "className": "",
-                                                "manualValue": "1",
-                                                "width": 460,
-                                                "height": 250,
-                                                "labelMethod": "auto",
-                                                "elasticity": false,
-                                                "fitContent": true,
-                                                "minHeight": 200,
-                                                "minWidth": 400,
-                                                "showSteps": false
-                                            }
-                                        }
-                                    ]
+                                    "modules": []
                                 },
                                 "content": {
                                     "modules": [
                                         {
-                                            "type": "WizardTitleField",
+                                            "type": "WizardIconizedLayerSelect",
                                             "config": {
-                                                "label": "Title",
-                                                "message": "add a title",
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "textFormatScript": ""
-                                            }
-                                        },
-                                        {
-                                            "type": "WizardDescriptionField",
-                                            "config": {
-                                                "label": "Description",
-                                                "message": "add a description",
-                                                "lines": 3,
-                                                "mandatory": false,
-                                                "showAudios": true,
-                                                "showImages": true,
-                                                "showDocuments": true,
-                                                "showVideos": true,
-                                                "className": "",
-                                                "maxChars": 0,
-                                                "showExpandInput": true,
-                                                "toolbarPosition": "bottom",
-                                                "textFormatScript": "",
-                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "layerMap": {
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png": 15,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png": 14,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png": 13,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png": 11
+                                                    },
+                                                    "renderSettings": []
+                                                },
+                                                "formatIconScript": ""
                                             }
                                         }
                                     ]
                                 },
                                 "footer": {
-                                    "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter",
-                                                "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "submit",
-                                                "labelForNext": "next",
-                                                "labelForPrevious": "previous",
-                                                "showCancel": true,
-                                                "showBack": true
-                                            }
-                                        }
-                                    ]
+                                    "modules": []
                                 },
                                 "menu": {
                                     "modules": []
