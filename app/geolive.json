@@ -742,15 +742,15 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -241,
-                    "y": 189
+                    "x": -223,
+                    "y": 265
                 },
                 "children": [
                     {
                         "class": "PlusNode",
                         "_diagramState": {
-                            "x": -196,
-                            "y": 199
+                            "x": -178,
+                            "y": 275
                         }
                     },
                     {
@@ -760,43 +760,43 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": -147,
-                            "y": 419
+                            "x": -137,
+                            "y": 429
                         },
                         "children": [
                             {
                                 "class": "PlusNode",
                                 "_diagramState": {
-                                    "x": 32,
-                                    "y": 445
+                                    "x": 42,
+                                    "y": 455
                                 }
                             },
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": -187,
-                                    "y": 445
+                                    "x": -177,
+                                    "y": 455
                                 }
                             },
                             {
                                 "class": "DecisionNode",
                                 "_diagramState": {
-                                    "x": 142,
-                                    "y": 273
+                                    "x": 237,
+                                    "y": 272
                                 },
                                 "children": [
                                     {
                                         "class": "PlusNode",
                                         "_diagramState": {
-                                            "x": 187,
-                                            "y": 283
+                                            "x": 282,
+                                            "y": 282
                                         }
                                     },
                                     {
                                         "class": "DecisionStemNode",
                                         "_diagramState": {
-                                            "x": 152,
-                                            "y": 333
+                                            "x": 247,
+                                            "y": 332
                                         },
                                         "builderMetadata": {
                                             "positions": {
@@ -805,7 +805,24 @@
                                                         {
                                                             "type": "WizardLayerDescision",
                                                             "config": {
-                                                                "decisions": []
+                                                                "decisions": [
+                                                                    [
+                                                                        11,
+                                                                        "Successes"
+                                                                    ],
+                                                                    [
+                                                                        15,
+                                                                        "Events"
+                                                                    ],
+                                                                    [
+                                                                        13,
+                                                                        "Services"
+                                                                    ],
+                                                                    [
+                                                                        14,
+                                                                        "Resources"
+                                                                    ]
+                                                                ]
                                                             }
                                                         }
                                                     ]
@@ -824,22 +841,22 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 260,
-                                            "y": 94
+                                            "x": 270,
+                                            "y": 104
                                         },
                                         "children": [
                                             {
                                                 "class": "PlusNode",
                                                 "_diagramState": {
-                                                    "x": 439,
-                                                    "y": 120
+                                                    "x": 449,
+                                                    "y": 130
                                                 }
                                             },
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 220,
-                                                    "y": 120
+                                                    "x": 230,
+                                                    "y": 130
                                                 }
                                             }
                                         ],
@@ -938,22 +955,22 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 308,
-                                            "y": 567
+                                            "x": 318,
+                                            "y": 577
                                         },
                                         "children": [
                                             {
                                                 "class": "PlusNode",
                                                 "_diagramState": {
-                                                    "x": 487,
-                                                    "y": 593
+                                                    "x": 497,
+                                                    "y": 603
                                                 }
                                             },
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 268,
-                                                    "y": 593
+                                                    "x": 278,
+                                                    "y": 603
                                                 }
                                             }
                                         ],
@@ -990,22 +1007,22 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 681,
-                                            "y": 287
+                                            "x": 691,
+                                            "y": 297
                                         },
                                         "children": [
                                             {
                                                 "class": "PlusNode",
                                                 "_diagramState": {
-                                                    "x": 860,
-                                                    "y": 313
+                                                    "x": 870,
+                                                    "y": 323
                                                 }
                                             },
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 641,
-                                                    "y": 313
+                                                    "x": 651,
+                                                    "y": 323
                                                 }
                                             }
                                         ],
@@ -1042,22 +1059,22 @@
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 701,
-                                            "y": 631
+                                            "x": 711,
+                                            "y": 641
                                         },
                                         "children": [
                                             {
                                                 "class": "PlusNode",
                                                 "_diagramState": {
-                                                    "x": 880,
-                                                    "y": 657
+                                                    "x": 890,
+                                                    "y": 667
                                                 }
                                             },
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 661,
-                                                    "y": 657
+                                                    "x": 671,
+                                                    "y": 667
                                                 }
                                             }
                                         ],
