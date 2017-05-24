@@ -742,15 +742,15 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -297,
-                    "y": 350
+                    "x": -244,
+                    "y": 506
                 },
                 "children": [
                     {
                         "class": "PlusNode",
                         "_diagramState": {
-                            "x": -252,
-                            "y": 360
+                            "x": -199,
+                            "y": 516
                         }
                     },
                     {
@@ -760,72 +760,304 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": -129,
-                            "y": 258
+                            "x": -162,
+                            "y": 310
                         },
                         "children": [
                             {
                                 "class": "PlusNode",
                                 "_diagramState": {
-                                    "x": 220,
-                                    "y": 424
+                                    "x": 17,
+                                    "y": 336
                                 }
                             },
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": -169,
-                                    "y": 424
+                                    "x": -202,
+                                    "y": 336
                                 }
                             },
                             {
-                                "title": "New Empty Step",
-                                "class": "AttributesTableNode",
-                                "fields": [
-                                    []
-                                ],
+                                "class": "DecisionNode",
                                 "_diagramState": {
-                                    "x": 222,
-                                    "y": 102
+                                    "x": 43,
+                                    "y": 413
                                 },
                                 "children": [
                                     {
                                         "class": "PlusNode",
                                         "_diagramState": {
-                                            "x": 571,
-                                            "y": 268
+                                            "x": 88,
+                                            "y": 423
                                         }
                                     },
                                     {
-                                        "class": "InsertNode",
+                                        "class": "DecisionStemNode",
                                         "_diagramState": {
-                                            "x": 182,
-                                            "y": 268
+                                            "x": 53,
+                                            "y": 473
+                                        },
+                                        "builderMetadata": {
+                                            "positions": {
+                                                "decision": {
+                                                    "modules": [
+                                                        {
+                                                            "type": "WizardLayerDescision",
+                                                            "config": {
+                                                                "decisions": []
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "positionList": [
+                                                "decision"
+                                            ],
+                                            "_diagramState": []
                                         }
                                     },
                                     {
-                                        "title": "New Empty Step",
+                                        "title": "Services",
                                         "class": "AttributesTableNode",
                                         "fields": [
                                             []
                                         ],
                                         "_diagramState": {
-                                            "x": 719,
-                                            "y": 133
+                                            "x": 250,
+                                            "y": 84
                                         },
                                         "children": [
                                             {
                                                 "class": "PlusNode",
                                                 "_diagramState": {
-                                                    "x": 898,
-                                                    "y": 159
+                                                    "x": 429,
+                                                    "y": 110
                                                 }
                                             },
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 679,
-                                                    "y": 159
+                                                    "x": 210,
+                                                    "y": 110
+                                                }
+                                            }
+                                        ],
+                                        "builderMetadata": {
+                                            "positions": {
+                                                "title": {
+                                                    "modules": [
+                                                        {
+                                                            "type": "WizardSteps",
+                                                            "config": {
+                                                                "iconValue": [],
+                                                                "className": "",
+                                                                "manualValue": "1",
+                                                                "width": 460,
+                                                                "height": 250,
+                                                                "labelMethod": "auto",
+                                                                "elasticity": false,
+                                                                "fitContent": true,
+                                                                "minHeight": 200,
+                                                                "minWidth": 400,
+                                                                "showSteps": false
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "content": {
+                                                    "modules": [
+                                                        {
+                                                            "type": "WizardTitleField",
+                                                            "config": {
+                                                                "label": "Title",
+                                                                "message": "add a title",
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "textFormatScript": ""
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "WizardDescriptionField",
+                                                            "config": {
+                                                                "label": "Description",
+                                                                "message": "add a description",
+                                                                "lines": 3,
+                                                                "mandatory": false,
+                                                                "showAudios": true,
+                                                                "showImages": true,
+                                                                "showDocuments": true,
+                                                                "showVideos": true,
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "showExpandInput": true,
+                                                                "toolbarPosition": "bottom",
+                                                                "textFormatScript": "",
+                                                                "mediaIconTint": "rgb(100, 149, 237)"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "footer": {
+                                                    "modules": [
+                                                        {
+                                                            "type": "WizardButtons",
+                                                            "config": {
+                                                                "className": "WizardFooter",
+                                                                "reduceOpacity": false,
+                                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                                "labelForCancel": "cancel",
+                                                                "labelForSubmit": "submit",
+                                                                "labelForNext": "next",
+                                                                "labelForPrevious": "previous",
+                                                                "showCancel": true,
+                                                                "showBack": true
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "menu": {
+                                                    "modules": []
+                                                }
+                                            },
+                                            "positionList": [
+                                                "title",
+                                                "content",
+                                                "footer",
+                                                "menu"
+                                            ],
+                                            "_diagramState": {
+                                                "minimized": true
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "title": "Events",
+                                        "class": "AttributesTableNode",
+                                        "fields": [
+                                            []
+                                        ],
+                                        "_diagramState": {
+                                            "x": 263,
+                                            "y": 529
+                                        },
+                                        "children": [
+                                            {
+                                                "class": "PlusNode",
+                                                "_diagramState": {
+                                                    "x": 442,
+                                                    "y": 555
+                                                }
+                                            },
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 223,
+                                                    "y": 555
+                                                }
+                                            }
+                                        ],
+                                        "builderMetadata": {
+                                            "positions": {
+                                                "title": {
+                                                    "modules": []
+                                                },
+                                                "content": {
+                                                    "modules": []
+                                                },
+                                                "footer": {
+                                                    "modules": []
+                                                },
+                                                "menu": {
+                                                    "modules": []
+                                                }
+                                            },
+                                            "positionList": [
+                                                "title",
+                                                "content",
+                                                "footer",
+                                                "menu"
+                                            ],
+                                            "_diagramState": {
+                                                "minimized": true
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "title": "Resources",
+                                        "class": "AttributesTableNode",
+                                        "fields": [
+                                            []
+                                        ],
+                                        "_diagramState": {
+                                            "x": 642,
+                                            "y": 93
+                                        },
+                                        "children": [
+                                            {
+                                                "class": "PlusNode",
+                                                "_diagramState": {
+                                                    "x": 821,
+                                                    "y": 119
+                                                }
+                                            },
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 602,
+                                                    "y": 119
+                                                }
+                                            }
+                                        ],
+                                        "builderMetadata": {
+                                            "positions": {
+                                                "title": {
+                                                    "modules": []
+                                                },
+                                                "content": {
+                                                    "modules": []
+                                                },
+                                                "footer": {
+                                                    "modules": []
+                                                },
+                                                "menu": {
+                                                    "modules": []
+                                                }
+                                            },
+                                            "positionList": [
+                                                "title",
+                                                "content",
+                                                "footer",
+                                                "menu"
+                                            ],
+                                            "_diagramState": {
+                                                "minimized": true
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "title": "Successes",
+                                        "class": "AttributesTableNode",
+                                        "fields": [
+                                            []
+                                        ],
+                                        "_diagramState": {
+                                            "x": 665,
+                                            "y": 532
+                                        },
+                                        "children": [
+                                            {
+                                                "class": "PlusNode",
+                                                "_diagramState": {
+                                                    "x": 844,
+                                                    "y": 558
+                                                }
+                                            },
+                                            {
+                                                "class": "InsertNode",
+                                                "_diagramState": {
+                                                    "x": 625,
+                                                    "y": 558
                                                 }
                                             }
                                         ],
@@ -855,100 +1087,30 @@
                                             }
                                         }
                                     }
-                                ],
-                                "builderMetadata": {
-                                    "positions": {
-                                        "title": {
-                                            "modules": [
-                                                {
-                                                    "type": "WizardSteps",
-                                                    "config": {
-                                                        "iconValue": [],
-                                                        "className": "",
-                                                        "manualValue": "1",
-                                                        "width": 460,
-                                                        "height": 250,
-                                                        "labelMethod": "auto",
-                                                        "elasticity": false,
-                                                        "fitContent": true,
-                                                        "minHeight": 200,
-                                                        "minWidth": 400,
-                                                        "showSteps": false
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        "content": {
-                                            "modules": [
-                                                {
-                                                    "type": "WizardTitleField",
-                                                    "config": {
-                                                        "label": "Title",
-                                                        "message": "add a title",
-                                                        "className": "",
-                                                        "maxChars": 0,
-                                                        "textFormatScript": ""
-                                                    }
-                                                },
-                                                {
-                                                    "type": "WizardDescriptionField",
-                                                    "config": {
-                                                        "label": "Description",
-                                                        "message": "add a description",
-                                                        "lines": 3,
-                                                        "mandatory": false,
-                                                        "showAudios": true,
-                                                        "showImages": true,
-                                                        "showDocuments": true,
-                                                        "showVideos": true,
-                                                        "className": "",
-                                                        "maxChars": 0,
-                                                        "showExpandInput": true,
-                                                        "toolbarPosition": "bottom",
-                                                        "textFormatScript": "",
-                                                        "mediaIconTint": "rgb(100, 149, 237)"
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        "footer": {
-                                            "modules": [
-                                                {
-                                                    "type": "WizardButtons",
-                                                    "config": {
-                                                        "className": "WizardFooter",
-                                                        "reduceOpacity": false,
-                                                        "onCompleteScript": "defaultBehaviorFn();",
-                                                        "labelForCancel": "cancel",
-                                                        "labelForSubmit": "submit",
-                                                        "labelForNext": "next",
-                                                        "labelForPrevious": "previous",
-                                                        "showCancel": true,
-                                                        "showBack": true
-                                                    }
-                                                }
-                                            ]
-                                        },
-                                        "menu": {
-                                            "modules": []
-                                        }
-                                    },
-                                    "positionList": [
-                                        "title",
-                                        "content",
-                                        "footer",
-                                        "menu"
-                                    ],
-                                    "_diagramState": {
-                                        "minimized": false
-                                    }
-                                }
+                                ]
                             }
                         ],
                         "builderMetadata": {
                             "positions": {
                                 "title": {
-                                    "modules": []
+                                    "modules": [
+                                        {
+                                            "type": "WizardSteps",
+                                            "config": {
+                                                "iconValue": [],
+                                                "className": "",
+                                                "manualValue": "1",
+                                                "width": 460,
+                                                "height": 250,
+                                                "labelMethod": "auto",
+                                                "elasticity": false,
+                                                "fitContent": true,
+                                                "minHeight": 200,
+                                                "minWidth": 400,
+                                                "showSteps": true
+                                            }
+                                        }
+                                    ]
                                 },
                                 "content": {
                                     "modules": [
@@ -976,7 +1138,22 @@
                                     ]
                                 },
                                 "footer": {
-                                    "modules": []
+                                    "modules": [
+                                        {
+                                            "type": "WizardButtons",
+                                            "config": {
+                                                "className": "WizardFooter",
+                                                "reduceOpacity": false,
+                                                "onCompleteScript": "defaultBehaviorFn();",
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "submit",
+                                                "labelForNext": "next",
+                                                "labelForPrevious": "previous",
+                                                "showCancel": true,
+                                                "showBack": true
+                                            }
+                                        }
+                                    ]
                                 },
                                 "menu": {
                                     "modules": []
@@ -989,7 +1166,7 @@
                                 "menu"
                             ],
                             "_diagramState": {
-                                "minimized": false
+                                "minimized": true
                             }
                         }
                     }
