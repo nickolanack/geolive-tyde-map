@@ -740,14 +740,14 @@
         "instance": "WizardBuilder",
         "parameters": {
             "metadata": {
-                "class": "DescisionNode",
+                "class": "DecisionNode",
                 "_diagramState": {
                     "x": -188,
                     "y": 307
                 },
                 "children": [
                     {
-                        "class": "Node",
+                        "class": "PlusNode",
                         "_diagramState": {
                             "x": -178,
                             "y": 367
@@ -760,15 +760,74 @@
                             []
                         ],
                         "_diagramState": {
-                            "x": 75,
-                            "y": 221
+                            "x": 85,
+                            "y": 231
                         },
                         "children": [
                             {
-                                "class": "Node",
+                                "class": "PlusNode",
                                 "_diagramState": {
-                                    "x": 429,
-                                    "y": 377
+                                    "x": 449,
+                                    "y": 397
+                                }
+                            },
+                            {
+                                "class": "InsertNode",
+                                "_diagramState": {
+                                    "x": 45,
+                                    "y": 397
+                                }
+                            },
+                            {
+                                "title": "New Empty Step",
+                                "class": "AttributesTableNode",
+                                "fields": [
+                                    []
+                                ],
+                                "_diagramState": {
+                                    "x": 639,
+                                    "y": 255
+                                },
+                                "children": [
+                                    {
+                                        "class": "PlusNode",
+                                        "_diagramState": {
+                                            "x": 833,
+                                            "y": 281
+                                        }
+                                    },
+                                    {
+                                        "class": "InsertNode",
+                                        "_diagramState": {
+                                            "x": 599,
+                                            "y": 281
+                                        }
+                                    }
+                                ],
+                                "builderMetadata": {
+                                    "positions": {
+                                        "title": {
+                                            "modules": []
+                                        },
+                                        "content": {
+                                            "modules": []
+                                        },
+                                        "footer": {
+                                            "modules": []
+                                        },
+                                        "menu": {
+                                            "modules": []
+                                        }
+                                    },
+                                    "positionList": [
+                                        "title",
+                                        "content",
+                                        "footer",
+                                        "menu"
+                                    ],
+                                    "_diagramState": {
+                                        "minimized": true
+                                    }
                                 }
                             }
                         ],
