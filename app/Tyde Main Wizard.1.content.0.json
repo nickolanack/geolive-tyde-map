@@ -1,0 +1,21 @@
+{
+    "type": "WizardIconizedLayerSelect",
+    "config": {
+        "icons": [
+            "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png",
+            "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png",
+            "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png",
+            "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png"
+        ],
+        "iconsetMetadata": {
+            "layerMap": {
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png": 15,
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png": 14,
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png": 13,
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png": 11
+            },
+            "renderSettings": {}
+        },
+        "formatIconScript": ""
+    }
+}

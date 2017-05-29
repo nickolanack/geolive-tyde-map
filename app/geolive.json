@@ -125,7 +125,11 @@
         "name": "User Interface",
         "instance": "UserInterface",
         "parameters": {
-            "defaultRoute": "{}"
+            "defaultRoute": {
+                "view": "plugin",
+                "plugin": "UserInterface",
+                "pluginView": "front"
+            }
         }
     },
     "plugin.38": {
@@ -134,38 +138,7 @@
         "parameters": {
             "storeUpdateDate": true,
             "attributeUpdateDateField": [
-                {
-                    "visibility": "public",
-                    "tableId": "3",
-                    "tableName": "wildlifeAttributes",
-                    "tableSuffix": "_4304",
-                    "title": "lastUpdate",
-                    "label": "Last Update",
-                    "description": "Items last update date",
-                    "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                }
+                "plugin.AutoAttributes.38.attributeUpdateDateField.0.json"
             ]
         }
     },
@@ -216,7 +189,7 @@
         "name": "Monolog Plugin",
         "instance": "Monolog",
         "parameters": {
-            "logPath": "\/srv\/www\/vhosts\/production\/mobiledemo.s54.ok.ubc.ca\/http\/..\/log",
+            "logPath": "\/srv\/www\/vhosts\/production\/tyde.s54.ok.ubc.ca\/http\/..\/log",
             "logToSentry": true
         }
     },
@@ -464,38 +437,7 @@
             "lockMinDate": "-60",
             "lockMaxDate": "+1",
             "attributeSelection": [
-                {
-                    "visibility": "public",
-                    "tableId": "3",
-                    "tableName": "wildlifeAttributes",
-                    "tableSuffix": "_4304",
-                    "title": "lastUpdate",
-                    "label": "Last Update",
-                    "description": "Items last update date",
-                    "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                }
+                "widget.Timeline.68.attributeSelection.0.json"
             ],
             "onRenderScript": "widget.Timeline.68.onRenderScript.js",
             "sendNotifications": true,
@@ -624,59 +566,17 @@
                 "positions": {
                     "title": {
                         "modules": [
-                            {
-                                "type": "DefaultTitle",
-                                "config": {
-                                    "className": "",
-                                    "maxChars": 0
-                                }
-                            }
+                            "Placemark Detail.metadata.positions.title.modules.0.json"
                         ]
                     },
                     "content": {
                         "modules": [
-                            {
-                                "type": "DefaultDescription",
-                                "config": {
-                                    "className": "",
-                                    "imageWidth": 300,
-                                    "imageHeight": 240,
-                                    "multiImageWidth": 100,
-                                    "multiImageHeight": 75,
-                                    "portraitImageWidth": 75,
-                                    "portraitImageHeight": 100,
-                                    "autoArrange": true,
-                                    "oneLine": true,
-                                    "maxChars": 0,
-                                    "maxWidth": 0,
-                                    "showAudios": true,
-                                    "showVideos": true,
-                                    "showImages": true,
-                                    "showDocuments": true,
-                                    "showLinks": true,
-                                    "showExternalContent": true,
-                                    "embedPortrait": true,
-                                    "preferLocalContent": true,
-                                    "portraitClip": true
-                                }
-                            }
+                            "Placemark Detail.metadata.positions.content.modules.0.json"
                         ]
                     },
                     "footer": {
                         "modules": [
-                            {
-                                "type": "DefaultEdit",
-                                "config": {
-                                    "className": "",
-                                    "dragConfirmMessage": "save new position",
-                                    "dragConfirm": false,
-                                    "geocodeMove": true,
-                                    "templateName": "ReportViolation",
-                                    "showEdit": true,
-                                    "showMove": true,
-                                    "showDelete": true
-                                }
-                            }
+                            "Placemark Detail.metadata.positions.footer.modules.0.json"
                         ]
                     },
                     "menu": {
@@ -746,31 +646,19 @@
                     "y": 286
                 },
                 "children": [
-                    {
-                        "class": "PlusNode",
-                        "_diagramState": {
-                            "x": -177,
-                            "y": 296
-                        }
-                    },
+                    "Tyde Main Wizard.metadata.children.0.json",
                     {
                         "title": "New Empty Step",
                         "class": "AttributesTableNode",
                         "fields": [
-                            []
+                            "Tyde Main Wizard.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
                             "x": -27,
                             "y": 321
                         },
                         "children": [
-                            {
-                                "class": "PlusNode",
-                                "_diagramState": {
-                                    "x": 152,
-                                    "y": 347
-                                }
-                            },
+                            "Tyde Main Wizard.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
@@ -785,13 +673,7 @@
                                     "y": 451
                                 },
                                 "children": [
-                                    {
-                                        "class": "PlusNode",
-                                        "_diagramState": {
-                                            "x": 514,
-                                            "y": 461
-                                        }
-                                    },
+                                    "Tyde Main Wizard.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "DecisionStemNode",
                                         "_diagramState": {
@@ -802,29 +684,7 @@
                                             "positions": {
                                                 "decision": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardLayerDescision",
-                                                            "config": {
-                                                                "decisions": [
-                                                                    [
-                                                                        11,
-                                                                        "Successes"
-                                                                    ],
-                                                                    [
-                                                                        15,
-                                                                        "Events"
-                                                                    ],
-                                                                    [
-                                                                        13,
-                                                                        "Services"
-                                                                    ],
-                                                                    [
-                                                                        14,
-                                                                        "Resources"
-                                                                    ]
-                                                                ]
-                                                            }
-                                                        }
+                                                        "Tyde Main Wizard.metadata.children.1.children.2.children.1.builderMetadata.positions.decision.modules.0.json"
                                                     ]
                                                 }
                                             },
@@ -838,20 +698,14 @@
                                         "title": "Services",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            []
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
                                             "x": 280,
                                             "y": 114
                                         },
                                         "children": [
-                                            {
-                                                "class": "PlusNode",
-                                                "_diagramState": {
-                                                    "x": 459,
-                                                    "y": 140
-                                                }
-                                            },
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
@@ -864,36 +718,12 @@
                                             "positions": {
                                                 "title": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardSteps",
-                                                            "config": {
-                                                                "iconValue": [],
-                                                                "className": "",
-                                                                "manualValue": "1",
-                                                                "width": 460,
-                                                                "height": 250,
-                                                                "labelMethod": "auto",
-                                                                "elasticity": false,
-                                                                "fitContent": true,
-                                                                "minHeight": 200,
-                                                                "minWidth": 400,
-                                                                "showSteps": false
-                                                            }
-                                                        }
+                                                        "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.title.modules.0.json"
                                                     ]
                                                 },
                                                 "content": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardTitleField",
-                                                            "config": {
-                                                                "label": "Title",
-                                                                "message": "add a title",
-                                                                "className": "",
-                                                                "maxChars": 0,
-                                                                "textFormatScript": ""
-                                                            }
-                                                        },
+                                                        "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.0.json",
                                                         {
                                                             "type": "WizardDescriptionField",
                                                             "config": {
@@ -917,20 +747,7 @@
                                                 },
                                                 "footer": {
                                                     "modules": [
-                                                        {
-                                                            "type": "WizardButtons",
-                                                            "config": {
-                                                                "className": "WizardFooter",
-                                                                "reduceOpacity": false,
-                                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                                "labelForCancel": "cancel",
-                                                                "labelForSubmit": "submit",
-                                                                "labelForNext": "next",
-                                                                "labelForPrevious": "previous",
-                                                                "showCancel": true,
-                                                                "showBack": true
-                                                            }
-                                                        }
+                                                        "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.footer.modules.0.json"
                                                     ]
                                                 },
                                                 "menu": {
@@ -952,20 +769,14 @@
                                         "title": "Events",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            []
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.3.fields.0.json"
                                         ],
                                         "_diagramState": {
                                             "x": 328,
                                             "y": 587
                                         },
                                         "children": [
-                                            {
-                                                "class": "PlusNode",
-                                                "_diagramState": {
-                                                    "x": 507,
-                                                    "y": 613
-                                                }
-                                            },
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.3.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
@@ -1004,20 +815,14 @@
                                         "title": "Resources",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            []
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.4.fields.0.json"
                                         ],
                                         "_diagramState": {
                                             "x": 701,
                                             "y": 307
                                         },
                                         "children": [
-                                            {
-                                                "class": "PlusNode",
-                                                "_diagramState": {
-                                                    "x": 880,
-                                                    "y": 333
-                                                }
-                                            },
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.4.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
@@ -1056,20 +861,14 @@
                                         "title": "Successes",
                                         "class": "AttributesTableNode",
                                         "fields": [
-                                            []
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.5.fields.0.json"
                                         ],
                                         "_diagramState": {
                                             "x": 721,
                                             "y": 651
                                         },
                                         "children": [
-                                            {
-                                                "class": "PlusNode",
-                                                "_diagramState": {
-                                                    "x": 900,
-                                                    "y": 677
-                                                }
-                                            },
+                                            "Tyde Main Wizard.metadata.children.1.children.2.children.5.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
@@ -1111,65 +910,17 @@
                             "positions": {
                                 "title": {
                                     "modules": [
-                                        {
-                                            "type": "WizardSteps",
-                                            "config": {
-                                                "iconValue": [],
-                                                "className": "",
-                                                "manualValue": "1",
-                                                "width": 460,
-                                                "height": 250,
-                                                "labelMethod": "auto",
-                                                "elasticity": false,
-                                                "fitContent": true,
-                                                "minHeight": 200,
-                                                "minWidth": 400,
-                                                "showSteps": true
-                                            }
-                                        }
+                                        "Tyde Main Wizard.metadata.children.1.builderMetadata.positions.title.modules.0.json"
                                     ]
                                 },
                                 "content": {
                                     "modules": [
-                                        {
-                                            "type": "WizardIconizedLayerSelect",
-                                            "config": {
-                                                "icons": [
-                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png",
-                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png",
-                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png",
-                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png"
-                                                ],
-                                                "iconsetMetadata": {
-                                                    "layerMap": {
-                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png": 15,
-                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png": 14,
-                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png": 13,
-                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png": 11
-                                                    },
-                                                    "renderSettings": []
-                                                },
-                                                "formatIconScript": ""
-                                            }
-                                        }
+                                        "Tyde Main Wizard.metadata.children.1.builderMetadata.positions.content.modules.0.json"
                                     ]
                                 },
                                 "footer": {
                                     "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter",
-                                                "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "submit",
-                                                "labelForNext": "next",
-                                                "labelForPrevious": "previous",
-                                                "showCancel": true,
-                                                "showBack": true
-                                            }
-                                        }
+                                        "Tyde Main Wizard.metadata.children.1.builderMetadata.positions.footer.modules.0.json"
                                     ]
                                 },
                                 "menu": {
@@ -1221,86 +972,35 @@
                     "y": 189
                 },
                 "children": [
-                    {
-                        "class": "Node",
-                        "_diagramState": {
-                            "x": -184,
-                            "y": 249
-                        }
-                    },
+                    "widget.LoginWizardBuilder.95.metadata.children.0.json",
                     {
                         "title": "New Empty Step",
                         "class": "AttributesTableNode",
                         "fields": [
-                            []
+                            "widget.LoginWizardBuilder.95.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
                             "x": 48,
                             "y": 273
                         },
                         "children": [
-                            {
-                                "class": "Node",
-                                "_diagramState": {
-                                    "x": 412,
-                                    "y": 439
-                                }
-                            }
+                            "widget.LoginWizardBuilder.95.metadata.children.1.children.0.json"
                         ],
                         "builderMetadata": {
                             "positions": {
                                 "title": {
                                     "modules": [
-                                        {
-                                            "type": "WizardSteps",
-                                            "config": {
-                                                "iconValue": [],
-                                                "className": "",
-                                                "manualValue": "1",
-                                                "width": 460,
-                                                "height": 250,
-                                                "labelMethod": "auto",
-                                                "elasticity": false,
-                                                "fitContent": true,
-                                                "minHeight": 200,
-                                                "minWidth": 400,
-                                                "showSteps": false
-                                            }
-                                        }
+                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.title.modules.0.json"
                                     ]
                                 },
                                 "content": {
                                     "modules": [
-                                        {
-                                            "type": "WizardLogin",
-                                            "config": {
-                                                "className": "",
-                                                "showCancel": true,
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "Login",
-                                                "labelForUsername": "XXXX-XXXX",
-                                                "labelForPassword": "XXXX-XXXX",
-                                                "onLoginFailedScript": ""
-                                            }
-                                        }
+                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json"
                                     ]
                                 },
                                 "footer": {
                                     "modules": [
-                                        {
-                                            "type": "WizardButtons",
-                                            "config": {
-                                                "className": "WizardFooter",
-                                                "reduceOpacity": false,
-                                                "onCompleteScript": "defaultBehaviorFn();",
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "submit",
-                                                "labelForNext": "next",
-                                                "labelForPrevious": "previous",
-                                                "showCancel": true,
-                                                "showBack": true
-                                            }
-                                        }
+                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.footer.modules.0.json"
                                     ]
                                 },
                                 "menu": {

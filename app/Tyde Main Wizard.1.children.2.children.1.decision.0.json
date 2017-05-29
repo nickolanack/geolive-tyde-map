@@ -1,0 +1,23 @@
+{
+    "type": "WizardLayerDescision",
+    "config": {
+        "decisions": [
+            [
+                11,
+                "Successes"
+            ],
+            [
+                15,
+                "Events"
+            ],
+            [
+                13,
+                "Services"
+            ],
+            [
+                14,
+                "Resources"
+            ]
+        ]
+    }
+}
