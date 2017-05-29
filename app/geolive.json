@@ -517,33 +517,15 @@
         "name": "Icon Set",
         "instance": "IconSet",
         "parameters": {
-            "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png",
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png",
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png"
-            ],
+            "markerIconset": [],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png": 11,
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png": 14,
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": 13
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": null
                 },
                 "renderSettings": {
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png": {
-                        "anchor": [
-                            "50.0%",
-                            "100.0%"
-                        ]
-                    },
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png": {
-                        "anchor": [
-                            "50.0%",
-                            "100.0%"
-                        ]
-                    },
                     "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": {
                         "anchor": [
                             "50.0%",
@@ -553,9 +535,7 @@
                 }
             },
             "widgetTitle": "",
-            "readAccess": "public",
-            "_raw_layerMap": null,
-            "_raw_tipMap": null
+            "readAccess": "public"
         }
     },
     "widget.77": {
