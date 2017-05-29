@@ -427,7 +427,7 @@
                     "label": "Priority Group Served",
                     "description": "",
                     "fieldType": "text",
-                    "color": "rgb(undefined, undefined, undefined)",
+                    "color": "rgb(NaN, NaN, NaN)",
                     "searchability": "public",
                     "editability": "registered",
                     "fieldTextOptions": {
@@ -448,7 +448,7 @@
                             "colorize": false
                         }
                     },
-                    "allowMultiple": false
+                    "allowMultiple": true
                 },
                 {
                     "visibility": "public",
@@ -615,6 +615,57 @@
                         }
                     },
                     "allowMultiple": false
+                }
+            ]
+        }
+    },
+    {
+        "id": "9",
+        "name": "successAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_5600",
+        "metadata": {
+            "title": "successAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "9",
+            "suffix": "_5600",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "9",
+                    "tableName": "successAttributes",
+                    "tableSuffix": "_5600",
+                    "title": "groupRepresented",
+                    "label": "Priority Group Represented",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": true
                 }
             ]
         }
