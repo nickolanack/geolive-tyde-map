@@ -3,15 +3,15 @@
     "tableId": "6",
     "tableName": "serviceAttributes",
     "tableSuffix": "_4983",
-    "title": "otherServicesConnection",
-    "label": "Connection to Other Services",
+    "title": "groupServed",
+    "label": "Priority Group Served",
     "description": "",
     "fieldType": "text",
     "color": "rgb(undefined, undefined, undefined)",
     "searchability": "public",
     "editability": "registered",
     "fieldTextOptions": {
-        "textType": "input",
+        "textType": "options",
         "inputOptions": {
             "buildAutocomplete": false,
             "requireModeration": false,

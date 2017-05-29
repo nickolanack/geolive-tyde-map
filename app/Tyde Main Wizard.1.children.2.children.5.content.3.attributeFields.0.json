@@ -1,17 +1,17 @@
 {
     "visibility": "public",
-    "tableId": "9",
-    "tableName": "successAttributes",
-    "tableSuffix": "_5600",
-    "title": "groupRepresented",
-    "label": "Priority Group Represented",
+    "tableId": "5",
+    "tableName": "markerAttributes",
+    "tableSuffix": "_3071",
+    "title": "media",
+    "label": "Media",
     "description": "",
     "fieldType": "text",
     "color": "rgb(undefined, undefined, undefined)",
     "searchability": "public",
     "editability": "registered",
     "fieldTextOptions": {
-        "textType": "options",
+        "textType": "input",
         "inputOptions": {
             "buildAutocomplete": false,
             "requireModeration": false,
@@ -28,5 +28,5 @@
             "colorize": false
         }
     },
-    "allowMultiple": true
+    "allowMultiple": false
 }

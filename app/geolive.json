@@ -642,8 +642,8 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -150,
-                    "y": 332
+                    "x": -61,
+                    "y": 303
                 },
                 "children": [
                     "Tyde Main Wizard.metadata.children.0.json",
@@ -654,31 +654,31 @@
                             "Tyde Main Wizard.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 117,
-                            "y": 473
+                            "x": 213,
+                            "y": 113
                         },
                         "children": [
                             "Tyde Main Wizard.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 77,
-                                    "y": 499
+                                    "x": 173,
+                                    "y": 139
                                 }
                             },
                             {
                                 "class": "DecisionNode",
                                 "_diagramState": {
-                                    "x": 372,
-                                    "y": 208
+                                    "x": 48,
+                                    "y": 375
                                 },
                                 "children": [
                                     "Tyde Main Wizard.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "DecisionStemNode",
                                         "_diagramState": {
-                                            "x": 382,
-                                            "y": 268
+                                            "x": 58,
+                                            "y": 435
                                         },
                                         "builderMetadata": {
                                             "positions": {
@@ -701,16 +701,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 515,
-                                            "y": 49
+                                            "x": 627,
+                                            "y": -9
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 475,
-                                                    "y": 75
+                                                    "x": 587,
+                                                    "y": 17
                                                 }
                                             }
                                         ],
@@ -725,10 +725,20 @@
                                                     "modules": [
                                                         "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.0.json",
                                                         {
+                                                            "type": "WizardTitleField",
+                                                            "config": {
+                                                                "label": "Name of Organization",
+                                                                "message": "add name",
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "textFormatScript": ""
+                                                            }
+                                                        },
+                                                        {
                                                             "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.1.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
                                                                 ],
                                                                 "label": "Logo",
                                                                 "message": "add a description",
@@ -749,7 +759,7 @@
                                                             "type": "plugin.Attributes.WizardTextAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -771,7 +781,7 @@
                                                             "type": "plugin.Attributes.WizardTextAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.4.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "Website",
@@ -796,28 +806,6 @@
                                                                 "text": "<h3>Identified employment lead<\/h3>",
                                                                 "template": "",
                                                                 "templateVariablesScript": ""
-                                                            }
-                                                        },
-                                                        {
-                                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                                            "config": {
-                                                                "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.5.config.attributeFields.0.json"
-                                                                ],
-                                                                "className": "",
-                                                                "label": "{field.label}",
-                                                                "message": "",
-                                                                "lines": 1,
-                                                                "maxChars": 0,
-                                                                "mandatory": false,
-                                                                "multiEntry": false,
-                                                                "autocomplete": true,
-                                                                "muliTemplate": "lines",
-                                                                "multiMessage": "",
-                                                                "formatter": "none",
-                                                                "iconTint": "rgb(100, 149, 237)",
-                                                                "onRenderTextFieldScript": "",
-                                                                "formatValueScript": ""
                                                             }
                                                         },
                                                         {
@@ -887,6 +875,28 @@
                                                             }
                                                         },
                                                         {
+                                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                                            "config": {
+                                                                "attributeFields": [
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.9.config.attributeFields.0.json"
+                                                                ],
+                                                                "className": "",
+                                                                "label": "{field.label}",
+                                                                "message": "",
+                                                                "lines": 1,
+                                                                "maxChars": 0,
+                                                                "mandatory": false,
+                                                                "multiEntry": false,
+                                                                "autocomplete": true,
+                                                                "muliTemplate": "lines",
+                                                                "multiMessage": "",
+                                                                "formatter": "none",
+                                                                "iconTint": "rgb(100, 149, 237)",
+                                                                "onRenderTextFieldScript": "",
+                                                                "formatValueScript": ""
+                                                            }
+                                                        },
+                                                        {
                                                             "type": "WizardDescriptionField",
                                                             "config": {
                                                                 "label": "Description of employment services",
@@ -909,7 +919,7 @@
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.10.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.11.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -926,7 +936,7 @@
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.11.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.12.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -943,7 +953,7 @@
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.12.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.13.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -960,7 +970,7 @@
                                                             "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.13.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.2.builderMetadata.positions.content.modules.14.config.attributeFields.0.json"
                                                                 ],
                                                                 "label": "Description",
                                                                 "message": "add a description",
@@ -1006,16 +1016,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 657,
-                                            "y": 503
+                                            "x": 700,
+                                            "y": 431
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 617,
-                                                    "y": 529
+                                                    "x": 660,
+                                                    "y": 457
                                                 }
                                             }
                                         ],
@@ -1029,6 +1039,16 @@
                                                 "content": {
                                                     "modules": [
                                                         "Tyde Main Wizard.metadata.children.1.children.2.children.3.builderMetadata.positions.content.modules.0.json",
+                                                        {
+                                                            "type": "WizardTitleField",
+                                                            "config": {
+                                                                "label": "Title",
+                                                                "message": "add a title",
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "textFormatScript": ""
+                                                            }
+                                                        },
                                                         {
                                                             "type": "WizardDescriptionField",
                                                             "config": {
@@ -1052,28 +1072,6 @@
                                                             "type": "plugin.Attributes.WizardTextAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.3.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
-                                                                ],
-                                                                "className": "",
-                                                                "label": "{field.label}",
-                                                                "message": "",
-                                                                "lines": 1,
-                                                                "maxChars": 0,
-                                                                "mandatory": false,
-                                                                "multiEntry": false,
-                                                                "autocomplete": true,
-                                                                "muliTemplate": "lines",
-                                                                "multiMessage": "",
-                                                                "formatter": "none",
-                                                                "iconTint": "rgb(100, 149, 237)",
-                                                                "onRenderTextFieldScript": "",
-                                                                "formatValueScript": ""
-                                                            }
-                                                        },
-                                                        {
-                                                            "type": "plugin.Attributes.WizardTextAttribute",
-                                                            "config": {
-                                                                "attributeFields": [
                                                                     "Tyde Main Wizard.metadata.children.1.children.2.children.3.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
@@ -1086,7 +1084,7 @@
                                                                 "autocomplete": true,
                                                                 "muliTemplate": "lines",
                                                                 "multiMessage": "",
-                                                                "formatter": "date",
+                                                                "formatter": "none",
                                                                 "iconTint": "rgb(100, 149, 237)",
                                                                 "onRenderTextFieldScript": "",
                                                                 "formatValueScript": ""
@@ -1108,7 +1106,7 @@
                                                                 "autocomplete": true,
                                                                 "muliTemplate": "lines",
                                                                 "multiMessage": "",
-                                                                "formatter": "time",
+                                                                "formatter": "date",
                                                                 "iconTint": "rgb(100, 149, 237)",
                                                                 "onRenderTextFieldScript": "",
                                                                 "formatValueScript": ""
@@ -1130,7 +1128,7 @@
                                                                 "autocomplete": true,
                                                                 "muliTemplate": "lines",
                                                                 "multiMessage": "",
-                                                                "formatter": "none",
+                                                                "formatter": "time",
                                                                 "iconTint": "rgb(100, 149, 237)",
                                                                 "onRenderTextFieldScript": "",
                                                                 "formatValueScript": ""
@@ -1201,6 +1199,28 @@
                                                                 "onRenderTextFieldScript": "",
                                                                 "formatValueScript": ""
                                                             }
+                                                        },
+                                                        {
+                                                            "type": "plugin.Attributes.WizardTextAttribute",
+                                                            "config": {
+                                                                "attributeFields": [
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.3.builderMetadata.positions.content.modules.9.config.attributeFields.0.json"
+                                                                ],
+                                                                "className": "",
+                                                                "label": "{field.label}",
+                                                                "message": "",
+                                                                "lines": 1,
+                                                                "maxChars": 0,
+                                                                "mandatory": false,
+                                                                "multiEntry": false,
+                                                                "autocomplete": true,
+                                                                "muliTemplate": "lines",
+                                                                "multiMessage": "",
+                                                                "formatter": "none",
+                                                                "iconTint": "rgb(100, 149, 237)",
+                                                                "onRenderTextFieldScript": "",
+                                                                "formatValueScript": ""
+                                                            }
                                                         }
                                                     ]
                                                 },
@@ -1231,16 +1251,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 644,
-                                            "y": 202
+                                            "x": 736,
+                                            "y": 101
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 604,
-                                                    "y": 228
+                                                    "x": 696,
+                                                    "y": 127
                                                 }
                                             }
                                         ],
@@ -1254,6 +1274,16 @@
                                                 "content": {
                                                     "modules": [
                                                         "Tyde Main Wizard.metadata.children.1.children.2.children.4.builderMetadata.positions.content.modules.0.json",
+                                                        {
+                                                            "type": "WizardTitleField",
+                                                            "config": {
+                                                                "label": "Name of Tool",
+                                                                "message": "add a name",
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "textFormatScript": ""
+                                                            }
+                                                        },
                                                         {
                                                             "type": "WizardDescriptionField",
                                                             "config": {
@@ -1277,7 +1307,7 @@
                                                             "type": "plugin.Attributes.WizardTextAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.4.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.4.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -1299,7 +1329,7 @@
                                                             "type": "plugin.Attributes.WizardTextAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.4.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.4.builderMetadata.positions.content.modules.4.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
@@ -1346,16 +1376,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 684,
-                                            "y": 352
+                                            "x": 707,
+                                            "y": 264
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 644,
-                                                    "y": 378
+                                                    "x": 667,
+                                                    "y": 290
                                                 }
                                             }
                                         ],
@@ -1369,6 +1399,16 @@
                                                 "content": {
                                                     "modules": [
                                                         "Tyde Main Wizard.metadata.children.1.children.2.children.5.builderMetadata.positions.content.modules.0.json",
+                                                        {
+                                                            "type": "WizardTitleField",
+                                                            "config": {
+                                                                "label": "Title",
+                                                                "message": "add a title",
+                                                                "className": "",
+                                                                "maxChars": 0,
+                                                                "textFormatScript": ""
+                                                            }
+                                                        },
                                                         {
                                                             "type": "WizardDescriptionField",
                                                             "config": {
@@ -1392,7 +1432,7 @@
                                                             "type": "plugin.Attributes.WizardDescriptionAttribute",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.5.builderMetadata.positions.content.modules.2.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.5.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
                                                                 ],
                                                                 "label": "Media",
                                                                 "message": "add a description",
@@ -1413,7 +1453,7 @@
                                                             "type": "plugin.Attributes.WizardTagCloud",
                                                             "config": {
                                                                 "attributeFields": [
-                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.5.builderMetadata.positions.content.modules.3.config.attributeFields.0.json"
+                                                                    "Tyde Main Wizard.metadata.children.1.children.2.children.5.builderMetadata.positions.content.modules.4.config.attributeFields.0.json"
                                                                 ],
                                                                 "className": "",
                                                                 "label": "{field.label}",
