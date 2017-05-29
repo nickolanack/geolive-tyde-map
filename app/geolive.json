@@ -499,7 +499,7 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png"
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png"
             ],
             "markerSize": 32,
             "hoverTip": "Add a placemark",
@@ -510,7 +510,8 @@
             "widgetTitle": "",
             "readAccess": "public",
             "position": "RIGHT_CENTER",
-            "wizardName": ""
+            "wizardName": "",
+            "profileIcon": null
         }
     },
     "widget.76": {
