@@ -1,0 +1,10 @@
+{
+    "type": "WizardTitleField",
+    "config": {
+        "label": "Name of Tool",
+        "message": "add a name",
+        "className": "",
+        "maxChars": 0,
+        "textFormatScript": ""
+    }
+}
