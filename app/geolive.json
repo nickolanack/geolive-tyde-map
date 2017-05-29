@@ -517,25 +517,28 @@
         "name": "Icon Set",
         "instance": "IconSet",
         "parameters": {
-            "markerIconset": [],
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HeR_Xu3_[G]_[ImAgE]_NKb.png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_[G]_O8p_w75_LpF.png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_llT_46p_8Vf_[G].png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png"
+            ],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": null
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HeR_Xu3_[G]_[ImAgE]_NKb.png": 15,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_[G]_O8p_w75_LpF.png": 14,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_llT_46p_8Vf_[G].png": 13,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png": 11
                 },
-                "renderSettings": {
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": {
-                        "anchor": [
-                            "50.0%",
-                            "100.0%"
-                        ]
-                    }
-                }
+                "renderSettings": []
             },
             "widgetTitle": "",
-            "readAccess": "public"
+            "readAccess": "public",
+            "_raw_layerMap": null,
+            "_raw_tipMap": null
         }
     },
     "widget.77": {
