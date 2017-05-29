@@ -1,28 +1,92 @@
 [
     {
-        "id": "3",
-        "name": "wildlifeAttributes",
+        "id": "5",
+        "name": "markerAttributes",
         "description": "",
         "label": "",
-        "suffix": "_4304",
+        "suffix": "_3071",
         "metadata": {
-            "title": "wildlifeAttributes",
+            "title": "markerAttributes",
             "readAccess": "public",
             "appliesTo": [
                 "marker"
             ],
-            "id": "3",
-            "suffix": "_4304",
+            "id": "5",
+            "suffix": "_3071",
             "description": "",
             "fields": [
                 {
                     "visibility": "public",
-                    "tableId": "3",
-                    "tableName": "wildlifeAttributes",
-                    "tableSuffix": "_4304",
-                    "title": "lastUpdate",
-                    "label": "Last Update",
-                    "description": "Items last update date",
+                    "tableId": "5",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_3071",
+                    "title": "link",
+                    "label": "Link Url",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "5",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_3071",
+                    "title": "address",
+                    "label": "Address",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "5",
+                    "tableName": "markerAttributes",
+                    "tableSuffix": "_3071",
+                    "title": "media",
+                    "label": "Media",
+                    "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
                     "searchability": "public",
@@ -51,338 +115,28 @@
         }
     },
     {
-        "id": "4",
-        "name": "rappAttributes",
+        "id": "6",
+        "name": "serviceAttributes",
         "description": "",
         "label": "",
-        "suffix": "_9408",
+        "suffix": "_4983",
         "metadata": {
-            "title": "rappAttributes",
+            "title": "serviceAttributes",
             "readAccess": "public",
             "appliesTo": [
                 "marker"
             ],
-            "id": "4",
-            "suffix": "_9408",
+            "id": "6",
+            "suffix": "_4983",
             "description": "",
             "fields": [
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "name",
-                    "label": "Name",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "address",
-                    "label": "Address",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "phone",
-                    "label": "Phone",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "email",
-                    "label": "Email",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "witnessed",
-                    "label": "Witnessed",
-                    "description": "",
-                    "fieldType": "boolean",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": true,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "suspectDescription",
-                    "label": "Suspect Description",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "transport",
-                    "label": "Transportation",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "otherWitnesses",
-                    "label": "Other Witnesses",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": true
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "comments",
-                    "label": "Comments",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "suspectContact",
-                    "label": "Suspect Contact Details",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "violationAffects",
-                    "label": "Violation Affects",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "logo",
+                    "label": "Logo",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
@@ -410,11 +164,11 @@
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "agenciesContacted",
-                    "label": "Agencies Contacted",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "phoneNumber",
+                    "label": "Phone Number",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
@@ -442,43 +196,11 @@
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "urgencyReason",
-                    "label": "Urgency Reason",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "hazards",
-                    "label": "Hazards",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "website",
+                    "label": "Website",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
@@ -506,87 +228,11 @@
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "inProgress",
-                    "label": "In Progress",
-                    "description": "",
-                    "fieldType": "boolean",
-                    "color": "rgb(undefined, undefined, undefined)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": true,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "requestAnonymous",
-                    "label": "Request Anonymous",
-                    "description": "",
-                    "fieldType": "boolean",
-                    "color": "rgb(undefined, undefined, undefined)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": true,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "dateStart",
-                    "label": "Date Start",
-                    "description": "",
-                    "fieldType": "text",
-                    "color": "rgb(NaN, NaN, NaN)",
-                    "searchability": "public",
-                    "editability": "registered",
-                    "fieldTextOptions": {
-                        "textType": "input",
-                        "inputOptions": {
-                            "buildAutocomplete": false,
-                            "requireModeration": false,
-                            "limitMaxChars": 0,
-                            "limitMaxWords": 0,
-                            "allowHtml": false,
-                            "allowMedia": true,
-                            "allowLinks": true
-                        },
-                        "listOptions": {
-                            "takeSugesstions": true,
-                            "buildTree": false,
-                            "iconize": false,
-                            "colorize": false
-                        }
-                    },
-                    "allowMultiple": false
-                },
-                {
-                    "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "dateEnd",
-                    "label": "Date End",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "leadName",
+                    "label": "Contact Name",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
@@ -614,11 +260,11 @@
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "violationType",
-                    "label": "Violation Type",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "leadPhoneNumber",
+                    "label": "Contact Phone Number",
                     "description": "",
                     "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
@@ -646,45 +292,327 @@
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "sent",
-                    "label": "Sent to dispatch",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "leadEmail",
+                    "label": "Contact Email",
                     "description": "",
-                    "fieldType": "boolean",
+                    "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
                     "searchability": "public",
                     "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": true,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
                     },
                     "allowMultiple": false
                 },
                 {
                     "visibility": "public",
-                    "tableId": "4",
-                    "tableName": "rappAttributes",
-                    "tableSuffix": "_9408",
-                    "title": "viewed",
-                    "label": "Viewed by dispatch",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "leadLink",
+                    "label": "Contact Link",
                     "description": "",
-                    "fieldType": "boolean",
+                    "fieldType": "text",
                     "color": "rgb(undefined, undefined, undefined)",
                     "searchability": "public",
                     "editability": "registered",
-                    "fieldBooleanOptions": {
-                        "trueIcon": false,
-                        "falseIcon": false,
-                        "hideFalse": true,
-                        "trueLabel": "",
-                        "falseLabel": "",
-                        "useFieldIcon": false
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "scope",
+                    "label": "Scope of Services",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "trainingType",
+                    "label": "Type of Training Offered",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "groupServed",
+                    "label": "Priority Group Served",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "options",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "6",
+                    "tableName": "serviceAttributes",
+                    "tableSuffix": "_4983",
+                    "title": "otherServicesConnection",
+                    "label": "Connection to Other Services",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
+    },
+    {
+        "id": "7",
+        "name": "resourceAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_1711",
+        "metadata": {
+            "title": "resourceAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "7",
+            "suffix": "_1711",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "7",
+                    "tableName": "resourceAttributes",
+                    "tableSuffix": "_1711",
+                    "title": "organizationName",
+                    "label": "Name of Organization",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                }
+            ]
+        }
+    },
+    {
+        "id": "8",
+        "name": "eventAttributes",
+        "description": "",
+        "label": "",
+        "suffix": "_9829",
+        "metadata": {
+            "title": "eventAttributes",
+            "readAccess": "public",
+            "appliesTo": [
+                "marker"
+            ],
+            "id": "8",
+            "suffix": "_9829",
+            "description": "",
+            "fields": [
+                {
+                    "visibility": "public",
+                    "tableId": "8",
+                    "tableName": "eventAttributes",
+                    "tableSuffix": "_9829",
+                    "title": "date",
+                    "label": "Date",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
+                    },
+                    "allowMultiple": false
+                },
+                {
+                    "visibility": "public",
+                    "tableId": "8",
+                    "tableName": "eventAttributes",
+                    "tableSuffix": "_9829",
+                    "title": "time",
+                    "label": "Time",
+                    "description": "",
+                    "fieldType": "text",
+                    "color": "rgb(undefined, undefined, undefined)",
+                    "searchability": "public",
+                    "editability": "registered",
+                    "fieldTextOptions": {
+                        "textType": "input",
+                        "inputOptions": {
+                            "buildAutocomplete": false,
+                            "requireModeration": false,
+                            "limitMaxChars": 0,
+                            "limitMaxWords": 0,
+                            "allowHtml": false,
+                            "allowMedia": true,
+                            "allowLinks": true
+                        },
+                        "listOptions": {
+                            "takeSugesstions": true,
+                            "buildTree": false,
+                            "iconize": false,
+                            "colorize": false
+                        }
                     },
                     "allowMultiple": false
                 }

@@ -1,8 +1,8 @@
 {
     "type": "WizardTitleField",
     "config": {
-        "label": "Title",
-        "message": "add a title",
+        "label": "Name of Organization",
+        "message": "add name",
         "className": "",
         "maxChars": 0,
         "textFormatScript": ""
