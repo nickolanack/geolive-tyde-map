@@ -642,8 +642,8 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -153,
-                    "y": 364
+                    "x": -150,
+                    "y": 332
                 },
                 "children": [
                     "Tyde Main Wizard.metadata.children.0.json",
@@ -654,31 +654,31 @@
                             "Tyde Main Wizard.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 119,
-                            "y": 425
+                            "x": 117,
+                            "y": 473
                         },
                         "children": [
                             "Tyde Main Wizard.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 79,
-                                    "y": 451
+                                    "x": 77,
+                                    "y": 499
                                 }
                             },
                             {
                                 "class": "DecisionNode",
                                 "_diagramState": {
-                                    "x": 100,
-                                    "y": 278
+                                    "x": 372,
+                                    "y": 208
                                 },
                                 "children": [
                                     "Tyde Main Wizard.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "DecisionStemNode",
                                         "_diagramState": {
-                                            "x": 100,
-                                            "y": 328
+                                            "x": 382,
+                                            "y": 268
                                         },
                                         "builderMetadata": {
                                             "positions": {
@@ -701,16 +701,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 165,
-                                            "y": 130
+                                            "x": 515,
+                                            "y": 49
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 125,
-                                                    "y": 156
+                                                    "x": 475,
+                                                    "y": 75
                                                 }
                                             }
                                         ],
@@ -1006,16 +1006,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 630,
-                                            "y": 277
+                                            "x": 657,
+                                            "y": 503
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 590,
-                                                    "y": 478
+                                                    "x": 617,
+                                                    "y": 529
                                                 }
                                             }
                                         ],
@@ -1220,7 +1220,7 @@
                                                 "menu"
                                             ],
                                             "_diagramState": {
-                                                "minimized": false
+                                                "minimized": true
                                             }
                                         }
                                     },
@@ -1231,16 +1231,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 437,
-                                            "y": 88
+                                            "x": 644,
+                                            "y": 202
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 397,
-                                                    "y": 114
+                                                    "x": 604,
+                                                    "y": 228
                                                 }
                                             }
                                         ],
@@ -1346,16 +1346,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 752,
-                                            "y": 140
+                                            "x": 684,
+                                            "y": 352
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 712,
-                                                    "y": 166
+                                                    "x": 644,
+                                                    "y": 378
                                                 }
                                             }
                                         ],
