@@ -654,31 +654,31 @@
                             "Tyde Main Wizard.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 68,
-                            "y": 395
+                            "x": -4,
+                            "y": 257
                         },
                         "children": [
                             "Tyde Main Wizard.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 28,
-                                    "y": 561
+                                    "x": -44,
+                                    "y": 423
                                 }
                             },
                             {
                                 "class": "DecisionNode",
                                 "_diagramState": {
-                                    "x": 147,
-                                    "y": 172
+                                    "x": 248,
+                                    "y": 68
                                 },
                                 "children": [
                                     "Tyde Main Wizard.metadata.children.1.children.2.children.0.json",
                                     {
                                         "class": "DecisionStemNode",
                                         "_diagramState": {
-                                            "x": 157,
-                                            "y": 232
+                                            "x": 258,
+                                            "y": 128
                                         },
                                         "builderMetadata": {
                                             "positions": {
@@ -701,16 +701,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 647,
-                                            "y": 11
+                                            "x": 657,
+                                            "y": 21
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.2.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 607,
-                                                    "y": 37
+                                                    "x": 617,
+                                                    "y": 47
                                                 }
                                             }
                                         ],
@@ -1016,16 +1016,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 720,
-                                            "y": 451
+                                            "x": 730,
+                                            "y": 461
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.3.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 680,
-                                                    "y": 477
+                                                    "x": 690,
+                                                    "y": 487
                                                 }
                                             }
                                         ],
@@ -1251,16 +1251,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 756,
-                                            "y": 121
+                                            "x": 766,
+                                            "y": 131
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.4.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 716,
-                                                    "y": 147
+                                                    "x": 726,
+                                                    "y": 157
                                                 }
                                             }
                                         ],
@@ -1376,16 +1376,16 @@
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.fields.0.json"
                                         ],
                                         "_diagramState": {
-                                            "x": 727,
-                                            "y": 284
+                                            "x": 737,
+                                            "y": 294
                                         },
                                         "children": [
                                             "Tyde Main Wizard.metadata.children.1.children.2.children.5.children.0.json",
                                             {
                                                 "class": "InsertNode",
                                                 "_diagramState": {
-                                                    "x": 687,
-                                                    "y": 310
+                                                    "x": 697,
+                                                    "y": 320
                                                 }
                                             }
                                         ],
@@ -1500,7 +1500,28 @@
                                 },
                                 "content": {
                                     "modules": [
-                                        "Tyde Main Wizard.metadata.children.1.builderMetadata.positions.content.modules.0.json"
+                                        "Tyde Main Wizard.metadata.children.1.builderMetadata.positions.content.modules.0.json",
+                                        {
+                                            "type": "WizardIconizedLayerSelect",
+                                            "config": {
+                                                "icons": [
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png",
+                                                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png"
+                                                ],
+                                                "iconsetMetadata": {
+                                                    "layerMap": {
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_UEj_V8F_[G]_Upc.png": 15,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/le5_[ImAgE]_SAi_9Oo_[G].png": 14,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HGM_[ImAgE]_TjO_[G]_VWK.png": 13,
+                                                        "components\/com_geolive\/users_files\/user_files_400\/Uploads\/wv_[ImAgE]_nHs_[G]_Ibj.png": 11
+                                                    },
+                                                    "renderSettings": []
+                                                },
+                                                "formatIconScript": ""
+                                            }
+                                        }
                                     ]
                                 },
                                 "footer": {
