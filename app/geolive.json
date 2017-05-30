@@ -1579,16 +1579,16 @@
                             "widget.LoginWizardBuilder.95.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 58,
-                            "y": 283
+                            "x": 68,
+                            "y": 293
                         },
                         "children": [
                             "widget.LoginWizardBuilder.95.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 18,
-                                    "y": 449
+                                    "x": 28,
+                                    "y": 459
                                 }
                             }
                         ],
@@ -1601,19 +1601,7 @@
                                 },
                                 "content": {
                                     "modules": [
-                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json",
-                                        {
-                                            "type": "WizardLogin",
-                                            "config": {
-                                                "className": "",
-                                                "showCancel": true,
-                                                "labelForCancel": "cancel",
-                                                "labelForSubmit": "Login",
-                                                "labelForUsername": "XXXX-XXXX",
-                                                "labelForPassword": "XXXX-XXXX",
-                                                "onLoginFailedScript": ""
-                                            }
-                                        }
+                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json"
                                     ]
                                 },
                                 "footer": {

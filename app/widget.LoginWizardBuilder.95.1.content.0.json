@@ -1,7 +1,12 @@
 {
-    "type": "plugin.SingleSignOn.FacebookLogin",
+    "type": "WizardLogin",
     "config": {
-        "reloadOnSuccess": true,
-        "reloadUrl": ""
+        "className": "",
+        "showCancel": true,
+        "labelForCancel": "cancel",
+        "labelForSubmit": "Login",
+        "labelForUsername": "Username",
+        "labelForPassword": "Password",
+        "onLoginFailedScript": ""
     }
 }
