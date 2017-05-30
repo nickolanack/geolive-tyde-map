@@ -204,6 +204,11 @@
         "instance": "Geolocate",
         "parameters": {}
     },
+    "plugin.52": {
+        "name": "Single SignOn Plugin",
+        "instance": "SingleSignOn",
+        "parameters": {}
+    },
     "widget.1": {
         "name": "Google Controls",
         "instance": "GoogleControl",
