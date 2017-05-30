@@ -1,7 +1,7 @@
 {
-    "class": "Node",
+    "class": "PlusNode",
     "_diagramState": {
-        "x": 412,
-        "y": 439
+        "x": 407,
+        "y": 449
     }
 }
