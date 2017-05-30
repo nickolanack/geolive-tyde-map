@@ -207,7 +207,11 @@
     "plugin.52": {
         "name": "Single SignOn Plugin",
         "instance": "SingleSignOn",
-        "parameters": {}
+        "parameters": {
+            "facebookAppId": "306167009832419",
+            "facebookAppSecret": "XXXX-XXXX",
+            "googleAuthClientId": ""
+        }
     },
     "widget.1": {
         "name": "Google Controls",
