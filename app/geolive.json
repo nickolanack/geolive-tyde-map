@@ -543,12 +543,35 @@
                     "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_llT_46p_8Vf_[G].png": 13,
                     "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png": 11
                 },
-                "renderSettings": []
+                "renderSettings": {
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/HeR_Xu3_[G]_[ImAgE]_NKb.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_[G]_O8p_w75_LpF.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[ImAgE]_llT_46p_8Vf_[G].png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    },
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png": {
+                        "anchor": [
+                            "50.0%",
+                            "100.0%"
+                        ]
+                    }
+                }
             },
             "widgetTitle": "",
-            "readAccess": "public",
-            "_raw_layerMap": null,
-            "_raw_tipMap": null
+            "readAccess": "public"
         }
     },
     "widget.77": {
