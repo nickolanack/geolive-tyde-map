@@ -330,7 +330,10 @@
             "position": "RIGHT_CENTER",
             "showAllIcons": true,
             "guestLoginDrop": true,
-            "onDropScript": "add a label or comment for this widget.onDropScript.js"
+            "onDropScript": "add a label or comment for this widget.onDropScript.js",
+            "dropIcon": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_Ybb_J11_j75.png"
+            ]
         }
     },
     "widget.28": {
