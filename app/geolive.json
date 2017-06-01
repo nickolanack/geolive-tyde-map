@@ -1579,16 +1579,16 @@
                             "widget.LoginWizardBuilder.95.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 78,
-                            "y": 303
+                            "x": 88,
+                            "y": 313
                         },
                         "children": [
                             "widget.LoginWizardBuilder.95.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 38,
-                                    "y": 469
+                                    "x": 48,
+                                    "y": 479
                                 }
                             }
                         ],
@@ -1602,6 +1602,13 @@
                                 "content": {
                                     "modules": [
                                         "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json",
+                                        {
+                                            "type": "plugin.SingleSignOn.FacebookLogin",
+                                            "config": {
+                                                "reloadOnSuccess": true,
+                                                "reloadUrl": ""
+                                            }
+                                        },
                                         {
                                             "type": "WizardLogin",
                                             "config": {

@@ -1,5 +1,5 @@
 {
-    "type": "plugin.SingleSignOn.FacebookLogin",
+    "type": "plugin.SingleSignOn.GoogleLogin",
     "config": {
         "reloadOnSuccess": true,
         "reloadUrl": ""
