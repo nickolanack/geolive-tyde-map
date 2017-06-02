@@ -1713,5 +1713,10 @@
             "target": "map.1",
             "readAccess": "public"
         }
+    },
+    "widget.98": {
+        "name": "Stylesheet",
+        "instance": "CSS",
+        "parameters": {}
     }
 }
