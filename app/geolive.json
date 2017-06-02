@@ -132,16 +132,6 @@
             }
         }
     },
-    "plugin.38": {
-        "name": "Auto Attributes",
-        "instance": "AutoAttributes",
-        "parameters": {
-            "storeUpdateDate": true,
-            "attributeUpdateDateField": [
-                "plugin.AutoAttributes.38.attributeUpdateDateField.0.json"
-            ]
-        }
-    },
     "plugin.39": {
         "name": "Language",
         "instance": "Language",
