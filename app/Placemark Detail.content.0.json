@@ -3,7 +3,7 @@
     "config": {
         "className": "",
         "viewType": "view",
-        "namedView": "ItemTitleDescription",
+        "namedView": "TitleDescription",
         "showInlineEdit": false,
         "namedFormView": "defaultFormView",
         "showDeleteButton": false,
