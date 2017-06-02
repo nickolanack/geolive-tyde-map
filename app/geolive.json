@@ -365,12 +365,14 @@
         "parameters": {
             "customScript": "heat map tile.customScript.js",
             "tileIcon": [
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/[G]_[ImAgE]_gtw_Ch3_6gE.png"
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/8d_TFA_[ImAgE]_RYn_[G].png"
             ],
             "hoverTip": "Show data as a heatmap",
             "widgetTitle": "heat map tile",
             "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "position": "RIGHT_CENTER",
+            "className": "",
+            "target": "map.1"
         }
     },
     "widget.56": {
