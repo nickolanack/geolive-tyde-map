@@ -478,7 +478,7 @@
         "parameters": {
             "position": "LEFT_CENTER",
             "style": "GeoliveLegend.css",
-            "useIconSet": true,
+            "useIconSet": false,
             "draggableIcons": false,
             "startMinimized": true,
             "showToggle": false,
