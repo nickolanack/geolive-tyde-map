@@ -587,9 +587,7 @@
             "metadata": {
                 "positions": {
                     "title": {
-                        "modules": [
-                            "Placemark Detail.metadata.positions.title.modules.0.json"
-                        ]
+                        "modules": []
                     },
                     "content": {
                         "modules": [
@@ -597,9 +595,7 @@
                         ]
                     },
                     "footer": {
-                        "modules": [
-                            "Placemark Detail.metadata.positions.footer.modules.0.json"
-                        ]
+                        "modules": []
                     },
                     "menu": {
                         "modules": []
@@ -615,7 +611,8 @@
             },
             "templateName": "Detail",
             "widgetTitle": "Placemark Detail",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.78": {
