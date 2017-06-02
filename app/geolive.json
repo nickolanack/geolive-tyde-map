@@ -1596,8 +1596,8 @@
             "metadata": {
                 "class": "DecisionNode",
                 "_diagramState": {
-                    "x": -154,
-                    "y": 186
+                    "x": -62,
+                    "y": 316
                 },
                 "children": [
                     "widget.LoginWizardBuilder.95.metadata.children.0.json",
@@ -1608,16 +1608,16 @@
                             "widget.LoginWizardBuilder.95.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 98,
-                            "y": 323
+                            "x": 190,
+                            "y": 303
                         },
                         "children": [
                             "widget.LoginWizardBuilder.95.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 58,
-                                    "y": 499
+                                    "x": 150,
+                                    "y": 469
                                 }
                             }
                         ],
@@ -1630,7 +1630,14 @@
                                 },
                                 "content": {
                                     "modules": [
-                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json"
+                                        "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json",
+                                        {
+                                            "type": "plugin.SingleSignOn.FacebookLogin",
+                                            "config": {
+                                                "reloadOnSuccess": true,
+                                                "reloadUrl": ""
+                                            }
+                                        }
                                     ]
                                 },
                                 "footer": {
@@ -1661,7 +1668,8 @@
             "onSaveScript": "",
             "templateName": "LoginWizard",
             "widgetTitle": "",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.96": {
