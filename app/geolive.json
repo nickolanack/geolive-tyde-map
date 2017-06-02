@@ -476,7 +476,7 @@
         "parameters": {
             "position": "LEFT_CENTER",
             "style": "GeoliveLegend.css",
-            "useIconSet": false,
+            "useIconSet": true,
             "draggableIcons": false,
             "startMinimized": true,
             "showToggle": false,
@@ -492,7 +492,8 @@
             "showEditLayerButtons": true,
             "widgetTitle": "",
             "readAccess": "public",
-            "shouldShowLayerScript": "return true"
+            "shouldShowLayerScript": "return true",
+            "target": "map.1"
         }
     },
     "widget.73": {
