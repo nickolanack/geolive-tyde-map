@@ -504,7 +504,8 @@
         "parameters": {
             "customCSS": "Legend.customCSS.css",
             "widgetTitle": "Legend",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.75": {

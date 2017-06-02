@@ -50,19 +50,6 @@ div.LegendArea div.LegendLayer span.LegendLayerLight{
     background-color: transparent;
     box-shadow: none;
 }
-
-.LegendLayer.layer-11.active:after {
-    background-color: #33cc33;
-}
-
-.LegendLayer.layer-13.active:after {
-    background-color: #cc0000;
-}
-
-.LegendLayer.layer-14.active:after {
-    background-color: #ff9933;
-}
-
 .GeoliveLegend .LegendLayers img {
     position: absolute;
     top: -2px;
