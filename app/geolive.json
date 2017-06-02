@@ -1717,6 +1717,11 @@
     "widget.98": {
         "name": "Stylesheet",
         "instance": "CSS",
-        "parameters": {}
+        "parameters": {
+            "customCSS": "Side Panel.customCSS.css",
+            "widgetTitle": "Side Panel",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }

@@ -1,0 +1,9 @@
+.ui-view.side-uiview {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.ui-view.side-uiview:first-child{
+    margin-top:40px
+}
