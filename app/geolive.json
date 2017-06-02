@@ -1682,6 +1682,39 @@
     "widget.97": {
         "name": "Detail View",
         "instance": "InfoWindowBuilder",
-        "parameters": {}
+        "parameters": {
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "Item Title And Description.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "Item Title And Description.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "Item Title And Description.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "templateName": "TitleDescription",
+            "widgetTitle": "Item Title And Description",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }
