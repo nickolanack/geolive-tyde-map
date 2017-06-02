@@ -1608,16 +1608,16 @@
                             "widget.LoginWizardBuilder.95.metadata.children.1.fields.0.json"
                         ],
                         "_diagramState": {
-                            "x": 190,
-                            "y": 303
+                            "x": 200,
+                            "y": 313
                         },
                         "children": [
                             "widget.LoginWizardBuilder.95.metadata.children.1.children.0.json",
                             {
                                 "class": "InsertNode",
                                 "_diagramState": {
-                                    "x": 150,
-                                    "y": 469
+                                    "x": 160,
+                                    "y": 479
                                 }
                             }
                         ],
@@ -1632,10 +1632,15 @@
                                     "modules": [
                                         "widget.LoginWizardBuilder.95.metadata.children.1.builderMetadata.positions.content.modules.0.json",
                                         {
-                                            "type": "plugin.SingleSignOn.FacebookLogin",
+                                            "type": "WizardLogin",
                                             "config": {
-                                                "reloadOnSuccess": true,
-                                                "reloadUrl": ""
+                                                "className": "",
+                                                "showCancel": true,
+                                                "labelForCancel": "cancel",
+                                                "labelForSubmit": "Login",
+                                                "labelForUsername": "XXXX-XXXX",
+                                                "labelForPassword": "XXXX-XXXX",
+                                                "onLoginFailedScript": ""
                                             }
                                         }
                                     ]
