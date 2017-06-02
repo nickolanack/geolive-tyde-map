@@ -1684,12 +1684,6 @@
         "instance": "InfoWindowBuilder",
         "parameters": {
             "metadata": {
-                "positionList": [
-                    "title",
-                    "content",
-                    "footer",
-                    "menu"
-                ],
                 "positions": {
                     "title": {
                         "modules": [
@@ -1702,14 +1696,19 @@
                         ]
                     },
                     "footer": {
-                        "modules": [
-                            "Item Title And Description.metadata.positions.footer.modules.0.json"
-                        ]
+                        "modules": []
                     },
                     "menu": {
                         "modules": []
                     }
-                }
+                },
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "_diagramState": []
             },
             "templateName": "TitleDescription",
             "widgetTitle": "Item Title And Description",
