@@ -596,7 +596,9 @@
                         ]
                     },
                     "footer": {
-                        "modules": []
+                        "modules": [
+                            "Placemark Detail.metadata.positions.footer.modules.0.json"
+                        ]
                     },
                     "menu": {
                         "modules": []
