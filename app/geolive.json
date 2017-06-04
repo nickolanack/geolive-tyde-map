@@ -421,7 +421,8 @@
         "parameters": {
             "customCSS": "Tile Buttons- Wizard Etc.customCSS.css",
             "widgetTitle": "Tile Buttons, Wizard Etc",
-            "readAccess": "public"
+            "readAccess": "public",
+            "target": "map.1"
         }
     },
     "widget.68": {

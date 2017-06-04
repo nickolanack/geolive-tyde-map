@@ -46,3 +46,7 @@
 .hideme.uitext-container {
     display: none;
 }
+
+.hide-text .text-input {
+    display: none;
+}
