@@ -2,7 +2,7 @@
     "type": "UIListView",
     "config": {
         "listClassName": "",
-        "className": "",
+        "className": "side-uiview",
         "viewType": "view",
         "namedView": "TitleDescription",
         "showInlineEdit": false,
