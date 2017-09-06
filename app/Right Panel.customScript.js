@@ -31,11 +31,12 @@ map.setMapitemSelectFn(function(mapitem) {
 
 map.setClusterClickFn(function(cluster, defaultClusterClickFn) {
     
-    defaultClusterClickFn();
-    viewer.open(new ViewTemplateModule(cluster, map, {
+  
+    viewer.open(new ViewTemplateModule(cluster.getMarkers(), map, {
 		template: "default",
 		page: "ClusterDetailList"
-	}), cluster);
+	}), cluster.getMarkers());
+	defaultClusterClickFn();
 	show();
     
 });
