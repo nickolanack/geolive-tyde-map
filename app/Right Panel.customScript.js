@@ -32,10 +32,10 @@ map.setMapitemSelectFn(function(mapitem) {
 map.setClusterClickFn(function(cluster, defaultClusterClickFn) {
     
   
-    viewer.open(new ViewTemplateModule(cluster.getMarkers(), map, {
+    viewer.open(new ViewTemplateModule(cluster.getMarkers().slice(0), map, {
 		template: "default",
 		page: "ClusterDetailList"
-	}), cluster.getMarkers());
+	}), cluster.getMarkers().slice(0));
 	defaultClusterClickFn();
 	show();
     
