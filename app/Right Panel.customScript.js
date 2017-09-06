@@ -5,7 +5,7 @@ var viewer=new ContentModuleViewer(map, container, {});
 var clearContent=function(){
     container.innerHTML="No item selected";
     
-    viewer.open(new GeoliveTemplateModule(AppClient, {
+    viewer.open(new ViewTemplateModule(AppClient, map, {
 		template: "default",
 		page: "EmptyView"
 	}), AppClient);
