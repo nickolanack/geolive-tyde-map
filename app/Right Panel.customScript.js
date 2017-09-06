@@ -7,7 +7,7 @@ var clearContent=function(){
     
     viewer.open(new ViewTemplateModule(AppClient, map, {
 		template: "default",
-		page: "EmptyView"
+		page: "EmptyTab"
 	}), AppClient);
 	show();
     
