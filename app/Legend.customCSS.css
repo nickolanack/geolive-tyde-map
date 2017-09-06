@@ -69,3 +69,10 @@ div.LegendArea div.LegendLayer span.LegendLayerLight{
 .LegendLayer {
     margin-bottom: 10px;
 }
+
+.LegendLayers img {
+    float: left;
+    margin-right: initial;
+    margin-top: 0px;
+    margin-left: 1px;
+}
