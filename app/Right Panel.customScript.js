@@ -28,3 +28,14 @@ map.setMapitemSelectFn(function(mapitem) {
 	show();
     
 });
+
+map.setClusterClickFn(function(cluster, defaultClusterClickFn) {
+    
+    defaultClusterClickFn
+    viewer.open(new GeoliveTemplateModule(cluster, {
+		template: "default",
+		page: "ClusterDetail"
+	}), cluster);
+	show();
+    
+});
