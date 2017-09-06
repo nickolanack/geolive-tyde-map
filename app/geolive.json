@@ -1734,6 +1734,40 @@
     "widget.99": {
         "name": "Detail View",
         "instance": "InfoWindowBuilder",
-        "parameters": {}
+        "parameters": {
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "Empty Tab.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "Empty Tab.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "Empty Tab.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "templateName": "EmptyView",
+            "requireTarget": true,
+            "widgetTitle": "Empty Tab",
+            "target": "none",
+            "readAccess": "public"
+        }
     }
 }
