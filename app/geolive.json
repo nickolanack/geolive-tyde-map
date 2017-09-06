@@ -1761,7 +1761,7 @@
                 ],
                 "_diagramState": []
             },
-            "templateName": "EmptyView",
+            "templateName": "EmptyTab",
             "requireTarget": true,
             "widgetTitle": "Empty Tab",
             "target": "map.1",
