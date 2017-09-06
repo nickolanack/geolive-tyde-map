@@ -34,7 +34,7 @@ map.setClusterClickFn(function(cluster, defaultClusterClickFn) {
     defaultClusterClickFn
     viewer.open(new ViewTemplateModule(cluster, map, {
 		template: "default",
-		page: "ClusterDetail"
+		page: "ClusterDetailList"
 	}), cluster);
 	show();
     
