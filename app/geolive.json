@@ -1730,5 +1730,10 @@
             "target": "map.1",
             "readAccess": "public"
         }
+    },
+    "widget.99": {
+        "name": "Detail View",
+        "instance": "InfoWindowBuilder",
+        "parameters": {}
     }
 }
