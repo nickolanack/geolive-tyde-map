@@ -65,3 +65,7 @@ div.LegendArea div.LegendLayer span.LegendLayerLight{
 .LegendLayers {
     border-bottom: none;
 }
+
+.LegendLayer {
+    margin-bottom: 10px;
+}
