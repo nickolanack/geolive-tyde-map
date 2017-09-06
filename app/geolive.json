@@ -1818,6 +1818,40 @@
     "widget.101": {
         "name": "Detail View",
         "instance": "InfoWindowBuilder",
-        "parameters": {}
+        "parameters": {
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "Cluster Detail List.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "Cluster Detail List.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "Cluster Detail List.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "templateName": "ClusterDetailList",
+            "requireTarget": true,
+            "widgetTitle": "Cluster Detail List",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }
