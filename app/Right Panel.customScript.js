@@ -3,7 +3,7 @@ var viewer=new ContentModuleViewer(map, container, {});
 
 
 var clearContent=function(){
-    container.innerHTML="No item selected";
+    //container.innerHTML="No item selected";
     
     viewer.open(new ViewTemplateModule(AppClient, map, {
 		template: "default",
