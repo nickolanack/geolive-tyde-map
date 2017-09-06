@@ -9,7 +9,7 @@
         "namedFormView": "defaultFormView",
         "showDeleteButton": false,
         "deleteItemScript": "",
-        "getItemListScript": "return item.getMarkers().map(function(g){return g.wrapper;});",
+        "getItemListScript": "return item.map(function(g){return g.wrapper;});",
         "formatItemListScript": "return list;",
         "formatModuleScript": "",
         "itemButtonsScript": "return [];",
