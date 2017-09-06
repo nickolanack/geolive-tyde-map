@@ -1781,7 +1781,16 @@
                     },
                     "content": {
                         "modules": [
-                            "Empty View.metadata.positions.content.modules.0.json"
+                            "Empty View.metadata.positions.content.modules.0.json",
+                            {
+                                "type": "WizardStepTitle",
+                                "config": {
+                                    "className": "",
+                                    "text": "Click on a marker or cluster to view detailed information",
+                                    "template": "",
+                                    "templateVariablesScript": ""
+                                }
+                            }
                         ]
                     },
                     "footer": {
