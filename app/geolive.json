@@ -1763,7 +1763,7 @@
             "templateName": "EmptyView",
             "requireTarget": true,
             "widgetTitle": "Empty Tab",
-            "target": "none",
+            "target": "map.1",
             "readAccess": "public"
         }
     }
