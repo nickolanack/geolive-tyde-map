@@ -1576,7 +1576,8 @@
             "customScript": "Right Panel.customScript.js",
             "widgetTitle": "Right Panel",
             "readAccess": "public",
-            "position": "RIGHT_CENTER"
+            "position": "RIGHT_CENTER",
+            "target": "map.1"
         }
     },
     "widget.95": {
