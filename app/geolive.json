@@ -1771,6 +1771,40 @@
     "widget.100": {
         "name": "Detail View",
         "instance": "InfoWindowBuilder",
-        "parameters": {}
+        "parameters": {
+            "metadata": {
+                "positionList": [
+                    "title",
+                    "content",
+                    "footer",
+                    "menu"
+                ],
+                "positions": {
+                    "title": {
+                        "modules": [
+                            "Empty View.metadata.positions.title.modules.0.json"
+                        ]
+                    },
+                    "content": {
+                        "modules": [
+                            "Empty View.metadata.positions.content.modules.0.json"
+                        ]
+                    },
+                    "footer": {
+                        "modules": [
+                            "Empty View.metadata.positions.footer.modules.0.json"
+                        ]
+                    },
+                    "menu": {
+                        "modules": []
+                    }
+                }
+            },
+            "templateName": "emptyView",
+            "requireTarget": true,
+            "widgetTitle": "Empty View",
+            "target": "map.1",
+            "readAccess": "public"
+        }
     }
 }
