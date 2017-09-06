@@ -5,10 +5,10 @@ var viewer=new ContentModuleViewer(map, container, {});
 var clearContent=function(){
     container.innerHTML="No item selected";
     
-    viewer.open(new GeoliveTemplateModule(map, {
+    viewer.open(new GeoliveTemplateModule(AppClient, {
 		template: "default",
 		page: "EmptyView"
-	}), map);
+	}), AppClient);
 	show();
     
 }
