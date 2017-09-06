@@ -5,10 +5,10 @@ var viewer=new ContentModuleViewer(map, container, {});
 var clearContent=function(){
     //container.innerHTML="No item selected";
     
-    viewer.open(new ViewTemplateModule(null, map, {
+    viewer.open(new ViewTemplateModule(map, map, {
 		template: "default",
 		page: "EmptyTab"
-	}), null);
+	}), map);
 	show();
     
 }
