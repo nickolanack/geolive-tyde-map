@@ -50,3 +50,8 @@
 .hide-textfield .text-input {
     display: none;
 }
+
+.admin-btn .small.cpanel_button {
+    display: inline-block;
+    float: left;
+}
