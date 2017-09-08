@@ -9,7 +9,7 @@ var clearContent=function(){
 		template: "default",
 		page: "EmptyTab"
 	}), map);
-	show();
+	//show();
     
 }
 sidePanel.addEvent('hide',function(){
