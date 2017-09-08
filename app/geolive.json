@@ -2376,7 +2376,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "<p>Click on a marker or cluster to view detailed information<\/p>",
+                                    "text": "<p style=\"color:#30546B;\">Click on a marker or cluster to view detailed information<\/p>",
                                     "template": "",
                                     "templateVariablesScript": ""
                                 }
