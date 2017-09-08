@@ -2416,7 +2416,25 @@
                     },
                     "content": {
                         "modules": [
-                            "Cluster Detail List.metadata.positions.content.modules.0.json"
+                            "Cluster Detail List.metadata.positions.content.modules.0.json",
+                            {
+                                "type": "UIListView",
+                                "config": {
+                                    "listClassName": "",
+                                    "className": "side-uiview",
+                                    "viewType": "view",
+                                    "namedView": "TitleDescription",
+                                    "showInlineEdit": false,
+                                    "namedFormView": "defaultFormView",
+                                    "showDeleteButton": false,
+                                    "deleteItemScript": "",
+                                    "getItemListScript": "Cluster Detail List.metadata.positions.content.modules.1.config.getItemListScript.js",
+                                    "formatItemListScript": "return list;",
+                                    "formatModuleScript": "",
+                                    "itemButtonsScript": "return [];",
+                                    "emptyNamedView": "emptyListView"
+                                }
+                            }
                         ]
                     },
                     "footer": {
