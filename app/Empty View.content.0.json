@@ -1,7 +1,7 @@
 {
     "type": "DefaultDescription",
     "config": {
-        "className": "item-title",
+        "className": "",
         "imageWidth": 300,
         "imageHeight": 240,
         "multiImageWidth": 100,

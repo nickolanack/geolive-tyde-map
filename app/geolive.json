@@ -2376,7 +2376,7 @@
                                 "type": "WizardStepTitle",
                                 "config": {
                                     "className": "",
-                                    "text": "Click on a marker or cluster to view detailed information",
+                                    "text": "<p>Click on a marker or cluster to view detailed information<\/p>",
                                     "template": "",
                                     "templateVariablesScript": ""
                                 }
