@@ -7,3 +7,10 @@
 .ui-view.side-uiview:first-child{
     margin-top:40px
 }
+
+span.item-title {
+    color: #30546B;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+}
