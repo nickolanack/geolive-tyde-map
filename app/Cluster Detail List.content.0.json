@@ -1,7 +1,7 @@
 {
     "type": "WizardScriptElement",
     "config": {
-        "script": "return new DomModule(new Element('span',{\"class\":\"item-title\",html:item.length+' item'+(item.length==1?'':'s')+' in cluster'}),{\"className\":\"ui-view\"});",
+        "script": "return new DomModule(new Element('span',{\"class\":\"item-title\",html:item.length+' item'+(item.length==1?'':'s')+' in cluster'}),{\"className\":\"ui-view side-uiview\"});",
         "identifier": "customScriptElement"
     }
 }
