@@ -1,7 +1,7 @@
 {
     "type": "DefaultTitle",
     "config": {
-        "className": "",
+        "className": "item-title",
         "maxChars": 0
     }
 }
