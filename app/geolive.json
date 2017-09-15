@@ -2487,11 +2487,11 @@
             "contentTemplate": "",
             "comments": "",
             "parameters": [
-                "widget.ConfigurationInterface.103.parameters.0.json"
+                "Map Config.parameters.0.json"
             ],
             "hello": "World",
-            "widgetTitle": "",
-            "target": "none",
+            "widgetTitle": "Map Config",
+            "target": "map-config",
             "readAccess": "public"
         }
     }
