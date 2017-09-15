@@ -2463,5 +2463,10 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {}
+    },
+    "widget.103": {
+        "name": "Configuration Interface",
+        "instance": "ConfigurationInterface",
+        "parameters": {}
     }
 }
