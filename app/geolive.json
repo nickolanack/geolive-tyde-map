@@ -2467,6 +2467,16 @@
     "widget.103": {
         "name": "Configuration Interface",
         "instance": "ConfigurationInterface",
-        "parameters": {}
+        "parameters": {
+            "contentTemplate": "",
+            "comments": "",
+            "parameters": [
+                "widget.ConfigurationInterface.103.parameters.0.json"
+            ],
+            "hello": "World",
+            "widgetTitle": "",
+            "target": "none",
+            "readAccess": "public"
+        }
     }
 }
