@@ -1,4 +1,4 @@
 {
-    "type": "parameter",
+    "type": "parameters",
     "target": "cluster-config"
 }
