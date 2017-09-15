@@ -2463,6 +2463,7 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {
+            "hello": "World",
             "contentTemplate": "",
             "comments": "",
             "parameters": {
@@ -2474,7 +2475,6 @@
                     "label": "Hello"
                 }
             },
-            "hello": "World",
             "widgetTitle": "",
             "target": "cluster-config",
             "readAccess": "public"
