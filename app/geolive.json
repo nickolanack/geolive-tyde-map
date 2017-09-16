@@ -2464,9 +2464,13 @@
         "instance": "Configuration",
         "parameters": {
             "layer-14-color": "rgb(0,0,0)",
+            "layer-14-color-hover": "rgb(0,0,0)",
             "layer-11-color": "rgb(0,0,0)",
+            "layer-11-color-hover": "rgb(0,0,0)",
             "layer-13-color": "rgb(0,0,0)",
+            "layer-13-color-hover": "rgb(0,0,0)",
             "layer-15-color": "rgb(0,0,0)",
+            "layer-15-color-hover": "rgb(0,0,0)",
             "layer-25-color": "rgb(0,0,0)",
             "hello": "World",
             "contentTemplate": "",
