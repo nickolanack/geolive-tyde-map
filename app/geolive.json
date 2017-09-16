@@ -2477,7 +2477,8 @@
             },
             "widgetTitle": "",
             "target": "cluster-config",
-            "readAccess": "public"
+            "readAccess": "public",
+            "formatParametersScript": "widget.Configuration.102.formatParametersScript.js"
         }
     },
     "widget.103": {
