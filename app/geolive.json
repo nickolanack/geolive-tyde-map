@@ -2463,6 +2463,7 @@
         "name": "Configuration",
         "instance": "Configuration",
         "parameters": {
+            "layer-25-color": "rgb(0,0,0)",
             "hello": "World",
             "contentTemplate": "",
             "comments": "",
