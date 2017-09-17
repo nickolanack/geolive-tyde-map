@@ -1,7 +1,7 @@
 {
     "type": "parameters",
     "target": "cluster-config",
-    "fields": [
+    "fieldsNames": [
         "layer-11-color"
     ]
 }
