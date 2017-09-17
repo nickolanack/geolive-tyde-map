@@ -1,4 +1,8 @@
 {
     "type": "parameters",
-    "target": "cluster-config"
+    "target": "cluster-config",
+    "fieldNames": [
+        "layer-1-color",
+        "layer-1-color-hover"
+    ]
 }
