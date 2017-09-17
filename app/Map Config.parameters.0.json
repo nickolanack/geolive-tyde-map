@@ -2,7 +2,7 @@
     "type": "parameters",
     "target": "cluster-config",
     "fieldNames": [
-        "layer-1-color",
-        "layer-1-color-hover"
+        "layer-11-color",
+        "layer-11-color-hover"
     ]
 }
